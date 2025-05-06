@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1643086255fb251e9a": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/92508238-8FB2-4FF1-8455-49AAEF386F4D.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Keep your confidence @ your fingertips with our consciously cute canvas tote bag! </p><p>With any purchase over $80, a free Nail Reformation Signature canvas bag will be bundled with your order, so you can showcase your distinct style. </p><p><em>Please add it to your cart manually prior to entering the checkout process to claim the Gift Bag.</em></p>",
+        "button_label": "",
+        "button_link": "shopify://products/nail-reformation-signature-canvas-gift-bag",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "1643086239af6e33c2": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/B98C955B-26B5-4662-ADE7-599CDECDD83D_1_105_c.jpg",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>These beautiful totes feature a timeless design made of 100% organic cotton canvas and is complete with two extra-durable over-the-shoulder straps, a main compartment that’s roomy enough to tote your essentials, and an exclusive Nail Reformation graphic. Work/school, traveling, errands, or trips with friends, our totes will be perfect for you.</p>",
+        "button_label": "",
+        "button_link": "shopify://products/nail-reformation-signature-canvas-gift-bag",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643086255fb251e9a",
+    "1643086239af6e33c2"
+  ]
+}

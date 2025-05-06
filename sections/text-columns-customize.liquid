@@ -1,0 +1,277 @@
+<style>
+.text-columns-title{
+  width:70%;
+  float:left;
+  text-align:left;
+  margin-top: 15px;
+}
+
+.text-columns-btn{
+  width:30%;
+  float:left;
+  text-align: right;
+  margin-top: 15px;
+}
+  
+ @media only screen and (min-width: 769px){
+  .medium-up--one-one {
+      width: 100%;
+  }
+
+}
+
+   @media only screen and (max-width: 769px){
+
+   .text-columns-title{
+  width:100%;
+  text-align:center;
+  }
+   .text-columns-btn{
+  width:100%;
+  text-align: center;
+  }
+}
+  
+</style>
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="page-width">
+  {%- if section.settings.title != blank -%}
+    <div class="section-header text-{{ section.settings.align_text }}">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  {%- endif -%}
+
+  <div class="grid{% unless section.blocks.size == 5 or section.blocks.size == 1 %} grid--uniform{% endunless %} grid--flush-bottom">
+    {%- liquid
+      assign grid_item_width = 'medium-up--one-third'
+      case section.blocks.size
+         when 1
+          assign grid_item_width = 'medium-up--one-one'
+        when 2
+          assign grid_item_width = 'medium-up--one-half'
+        when 4
+          assign grid_item_width = 'medium-up--one-half'
+      endcase
+    -%}
+    {%- for block in section.blocks -%}
+      {%- if section.blocks.size == 5 and forloop.index < 3 -%}
+        {%- assign column_width = 'medium-up--one-half' -%}
+      {%- else -%}
+        {%- assign column_width = grid_item_width -%}
+      {%- endif -%}
+      <div class="grid__item {{ column_width }} text-{{ section.settings.align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3"  >
+       <div style="padding-left:15px;padding-right:15px;padding-bottom:15px;padding-top:15px; {% if block.settings.background_color!=blank %}background-color:{{ block.settings.background_color }}{% endif %}">
+        {%- if block.settings.enable_image -%}
+          {% assign column_max_width=block.settings.image_width | append: "px" %}
+          {% if block.settings.one_column_full_width and section.blocks.size == 1  %}
+            {% assign column_max_width="100%" %}
+          {% else %}
+            
+          {% endif %}
+          <div style="{% if section.settings.align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ column_max_width }};">
+            {%- if block.settings.button_link != blank -%}
+              <a href="{{ block.settings.button_link }}">
+            {%- endif -%}
+            {%- if block.settings.image != blank -%}
+              <div class="image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                <img class="lazyload"
+                    data-src="{{ img_url }}"
+                    data-widths="[180, 360, 540, 720, 900, 1080, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2140, 2320, 2520]"
+                    data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                    data-sizes="auto"
+                    alt="{{ block.settings.image.alt }}">
+              </div>
+            {%- else -%}
+              <div class="image-wrap text-spacing">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {%- endif -%}
+            {%- if block.settings.button_link != blank -%}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        <div>
+          <div class="text-columns-title">
+        {%- if block.settings.title != blank -%}
+          <h3 style='margin: 5px 0;{% if block.settings.heading_color!=blank %}color:{{ block.settings.heading_color }};{% endif %}{% if block.settings.heading_font_size!=0 %}font-size:{{ block.settings.heading_font_size }}px;{% endif %}'>{{ block.settings.title }}</h3>
+        {%- endif -%}
+        {%- if block.settings.text != blank -%}
+          <div class="rte-setting text-spacing"  style='{% if block.settings.text_color!=blank %}color:{{ block.settings.text_color }};{% endif %}{% if block.settings.text_font_size!=0 %}font-size:{{ block.settings.text_font_size }}px;{% endif %}'>{{ block.settings.text }}</div>
+        {%- endif -%}
+          </div>
+          <div class="text-columns-btn">
+        {%- if block.settings.button_label != blank -%}
+          <a  href="{{ block.settings.button_link }}" style="font-weight:600;{% if block.settings.button_background_color!=blank %}background-color:{{ block.settings.button_background_color }};{% endif %}{% if block.settings.button_text_color!=blank %}color:{{ block.settings.button_text_color }};{% endif %}{% if block.settings.button_border_color!=blank %}border-color:{{ block.settings.button_border_color }};{% endif %}{% if block.settings.button_text_font_size!=0 %}font-size:{{ block.settings.button_text_font_size }}px;{% endif %}" class="btn btn--secondary btn--small">
+            {{ block.settings.button_label }}
+          </a>
+        {%- endif -%}
+          </div>
+      <div style="clear:both;"></div>
+        </div>
+      </div>
+        </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Text columns - customize",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "Show section divider",
+        "default": false
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "enable_image",
+            "label": "Show image",
+            "default": true
+          },
+          {
+            "type": "checkbox",
+            "id": "one_column_full_width",
+            "label": "One column full width",
+            "default": true
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color"
+          },
+          {
+            "type": "range",
+            "id": "image_width",
+            "label": "Image width",
+            "default": 650,
+            "min": 60,
+            "max": 650,
+            "step": 10,
+            "unit": "px"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "number",
+            "id": "heading_font_size",
+            "label": "Heading font-size"
+          },
+          {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading color"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>"
+          },
+          {
+            "type": "number",
+            "id": "text_font_size",
+            "label": "Text font-size"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button label",
+            "default": "Optional button"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Link"
+          },
+          {
+            "type": "color",
+            "id": "button_background_color",
+            "label": "Button background color"
+          },
+          {
+            "type": "color",
+            "id": "button_border_color",
+            "label": "Button border color"
+          },
+          {
+            "type": "number",
+            "id": "button_text_font_size",
+            "label": "Button text font-size"
+          },
+          {
+            "type": "color",
+            "id": "button_text_color",
+            "label": "Button text color"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Text columns with images - customize",
+        "blocks": [
+          {
+            "type": "text_block"
+          },
+          {
+            "type": "text_block"
+          },
+          {
+            "type": "text_block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

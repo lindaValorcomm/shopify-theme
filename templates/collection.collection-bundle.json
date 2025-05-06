@@ -1,0 +1,278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Spend $80 and get a free Nail Reformation Signature Canvas Bag    (add it to cart prior checkout)",
+            "text": "",
+            "link": "shopify://products/nail-reformation-signature-canvas-gift-bag",
+            "label": "Shop now",
+            "image": "shopify://shop_images/3A5B4989-5FA4-45B8-BA5A-0F7EBA459585_1_105_c.jpg",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "6131fd0a-29c4-4081-b70c-b1c7bbccaadc": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "International women's day sale",
+            "text": "20% Discount From March 6th - March 9th",
+            "link": "shopify://collections/all",
+            "label": "Shop now",
+            "image": "shopify://shop_images/woman-in-pink-silk.jpg",
+            "color_tint": "#ff6d6d",
+            "color_tint_opacity": 20,
+            "framed": true
+          }
+        },
+        "8c92f458-fb5b-4fab-acf5-148d8f3206d7": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "LIMITED TIME ONLY",
+            "text": "Free Shipping on every order (no minimum)",
+            "link": "shopify://collections/all",
+            "label": "ENDING September 18th",
+            "color_tint": "#ff6d6d",
+            "color_tint_opacity": 10,
+            "framed": false
+          }
+        },
+        "2ca63394-6d0c-41d0-92b8-dfcd14a078b3": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Limited fall bundle sale",
+            "textarea": "September 16 - 21 \ncomplimentary shipping",
+            "cta_text1": "shop",
+            "cta_link1": "shopify://collections/limited-fall-bundle-sale",
+            "cta_text2": "",
+            "cta_link2": "shopify://collections/all-dreamiest-press-on-nails",
+            "image": "shopify://shop_images/Orange_and_Brown_Abstract_Hand-Painted_Textured_Background_Illustration_Autumn_Sale_Instagram_Post.png",
+            "video_url": "",
+            "width": "100",
+            "height": 320,
+            "text_size": 115,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "44c43d6a-85fc-4cfa-92b5-b641565da263": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "WOMEN EQUALITY SALE",
+            "text": "20% OFF sitewide use code EQUALITY",
+            "link": "shopify://collections/all",
+            "label": "LIMITED TIME shop",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 12,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced",
+        "6131fd0a-29c4-4081-b70c-b1c7bbccaadc",
+        "8c92f458-fb5b-4fab-acf5-148d8f3206d7",
+        "2ca63394-6d0c-41d0-92b8-dfcd14a078b3",
+        "44c43d6a-85fc-4cfa-92b5-b641565da263"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 40,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 3,
+            "rows_per_page": 4,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    },
+    "165669371302a50474": {
+      "type": "advanced-content",
+      "blocks": {
+        "165669371375b8adc7-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "165669371375b8adc7-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165669371375b8adc7-0",
+        "165669371375b8adc7-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16588878590c4935df": {
+      "type": "sswinstagram",
+      "disabled": true,
+      "settings": {
+        "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\""
+      }
+    },
+    "165888790674ab5b8b": {
+      "type": "promo-grid",
+      "blocks": {
+        "165888790658793f29-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "165888790658793f29-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "165888790658793f29-0",
+        "165888790658793f29-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "promo-grid",
+    "main-collection",
+    "165669371302a50474",
+    "16588878590c4935df",
+    "165888790674ab5b8b"
+  ]
+}

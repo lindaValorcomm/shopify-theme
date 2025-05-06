@@ -1,0 +1,517 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dd1608a7-47a5-49b7-aee2-30a7c54c9e00": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14915268050995__dd1608a7-47a5-49b7-aee2-30a7c54c9e00-168731476359310370-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Summer Press-On Nail Trends Report"
+          }
+        },
+        "template--14915268050995__dd1608a7-47a5-49b7-aee2-30a7c54c9e00-168731476359310370-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Get ready to nail your style game with the hottest trends of 2023! We've scoured the fashion scene and gathered the ten most captivating summer nail trends to keep you ahead of the game. Don't just take our word for it—these trends have been spotted in top-notch publications like <a href=\"https://www.byrdie.com/summer-2023-nail-trends-7482905\"><span style=\"text-decoration:underline\"><strong>Byrdie</strong></span></a>, <a href=\"https://www.cosmopolitan.com/style-beauty/beauty/g43498345/summer-2023-nail-trends/\"><span style=\"text-decoration:underline\"><strong>Cosmopolitan</strong></span></a>, <a href=\"https://www.whowhatwear.com/summer-nail-trends-2023\"><span style=\"text-decoration:underline\"><strong>Who What Wea</strong></span><span style=\"text-decoration:underline\">r</span></a>, and trusted beauty influencer<a href=\"https://joannarahier.com/spring-summer-2023-nail-trends/\"><span style=\"text-decoration:underline\"><strong>Joanna Rahier</strong></span></a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__dd1608a7-47a5-49b7-aee2-30a7c54c9e00-168731476359310370-0",
+        "template--14915268050995__dd1608a7-47a5-49b7-aee2-30a7c54c9e00-168731476359310370-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "50cb8d7c-b008-42b7-917a-3ffc1ea60bf4": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__50cb8d7c-b008-42b7-917a-3ffc1ea60bf4-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Retro_Friends_Photo_Collage.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__50cb8d7c-b008-42b7-917a-3ffc1ea60bf4-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #1: Neon Overload: Get Your Glow On</h2><p>Get ready to ignite your nails with the vibrant and electrifying trend of Neon Overload. This summer, it's all about embracing bold neon hues that will make your fingertips light up like never before. Say goodbye to subtlety and hello to eye-catching pops of color.\n</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__50cb8d7c-b008-42b7-917a-3ffc1ea60bf4-16873151032d0ec7b2-0",
+        "template--14915268050995__50cb8d7c-b008-42b7-917a-3ffc1ea60bf4-16873151032d0ec7b2-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "c3bc3119-14b8-4e78-8a8e-8ce4f46e6398": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "neon-overload",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "4d9eb1bb-7027-4215-9e2b-69c8ede9fb5e": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__4d9eb1bb-7027-4215-9e2b-69c8ede9fb5e-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #2: Tropical Paradise on Your Tips</h2><p>Transport yourself to a vacation state of mind with the delightful trend of Tropical Paradise! This summer, let your nails take you on a vibrant journey inspired by the lush flora and fauna of tropical destinations. Picture your fingertips adorned with vivid colors and exotic elements that will transport you to a sun-soaked island bursting with life.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__4d9eb1bb-7027-4215-9e2b-69c8ede9fb5e-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brown_dark_coffee_photo_collage_2e456c06-6ff5-43af-ad74-9d479de094a1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__4d9eb1bb-7027-4215-9e2b-69c8ede9fb5e-16873151032d0ec7b2-1",
+        "template--14915268050995__4d9eb1bb-7027-4215-9e2b-69c8ede9fb5e-16873151032d0ec7b2-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "76109d87-c575-4ee2-a39c-9135426492c3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "tropical-paradise",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "ee640f49-ee6a-485d-9eeb-0cebb1c78a62": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__ee640f49-ee6a-485d-9eeb-0cebb1c78a62-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pastel_Color_Moodboard_Photo_Collage.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__ee640f49-ee6a-485d-9eeb-0cebb1c78a62-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #3: Pastel Perfection: Soft and Sassy, Darling</h2><p>Step into summer with nails that are as sweet as cotton candy and as chic as a Parisian café. Get ready to embrace the delightful trend of Pastel Perfection, where soft hues take center stage and add a touch of whimsy to your fingertips.\n</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__ee640f49-ee6a-485d-9eeb-0cebb1c78a62-16873151032d0ec7b2-0",
+        "template--14915268050995__ee640f49-ee6a-485d-9eeb-0cebb1c78a62-16873151032d0ec7b2-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "d074970f-12cc-47a9-bd76-f7ac543b6690": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "pastel-perfection",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "85f9a782-d452-42ac-bb45-52866ff1ad76": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__85f9a782-d452-42ac-bb45-52866ff1ad76-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #4 Milky Perfection: Effortlessly Natural and Chic\n</h2><p>Embrace the understated beauty of the \"milky\" nail look, where elegance meets simplicity. This summer, let your nails radiate a natural and effortlessly chic vibe that will leave a lasting impression. Rock the trend of a barely-there, \"milky\" manicure with press-on nails that perfectly capture the essence of understated elegance. These nails give you a classy and refined look that effortlessly blends with any outfit or occasion.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__85f9a782-d452-42ac-bb45-52866ff1ad76-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Retro_Friends_Photo_Collage_copy.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__85f9a782-d452-42ac-bb45-52866ff1ad76-16873151032d0ec7b2-1",
+        "template--14915268050995__85f9a782-d452-42ac-bb45-52866ff1ad76-16873151032d0ec7b2-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "a7bedc12-32fc-4fc2-b513-9da2b9695459": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "milky-perfection",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "caf01f3e-ba42-4f9f-9b9e-51d348e8ac51": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__caf01f3e-ba42-4f9f-9b9e-51d348e8ac51-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Retro_Friends_Photo_Collage_1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__caf01f3e-ba42-4f9f-9b9e-51d348e8ac51-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #5 Fancy French: Classic with a Twist\n</h2><p>Give the traditional French manicure a modern and trendy twist, as we dive into the world of Fancy French. This summer, it's time to experiment with unique color combinations, geometric shapes, and asymmetrical designs that will elevate your nails to a whole new level.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__caf01f3e-ba42-4f9f-9b9e-51d348e8ac51-16873151032d0ec7b2-0",
+        "template--14915268050995__caf01f3e-ba42-4f9f-9b9e-51d348e8ac51-16873151032d0ec7b2-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "05fd1d79-0026-4d18-ab47-5fa0ce20a855": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "fancy-french",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "576d2b42-a96d-4593-a945-eb738907effd": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__576d2b42-a96d-4593-a945-eb738907effd-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #6 Almond Tips: Nail Shape That Exudes Elegance\n</h2><p>Get ready to embrace elegance with the captivating trend of Almond Tips. This summer, elevate your nail game with this sleek and sophisticated nail shape that exudes timeless beauty and elongates your fingers for a graceful look.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__576d2b42-a96d-4593-a945-eb738907effd-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Purple_Minimalist_Aesthetic_Technology_Photo_Collage.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__576d2b42-a96d-4593-a945-eb738907effd-16873151032d0ec7b2-1",
+        "template--14915268050995__576d2b42-a96d-4593-a945-eb738907effd-16873151032d0ec7b2-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "37acd386-05ae-4f49-8582-d4612fc57d7e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "almond-tips",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "0f310381-d6af-4e84-9cae-d1bca03b47d4": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__0f310381-d6af-4e84-9cae-d1bca03b47d4-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Beige_Minimal_Photo_Collage_Facebook_Post_1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__0f310381-d6af-4e84-9cae-d1bca03b47d4-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #7 3D Nail Art: Taking Your Nails to Another Dimension</h2><p>Step into a world of artistic expression with the mesmerizing trend of 3D Nail Art. This summer, get ready to elevate your nail game to a whole new level by adding depth and texture to your fingertips with stunning multi-dimensional designs.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__0f310381-d6af-4e84-9cae-d1bca03b47d4-16873151032d0ec7b2-0",
+        "template--14915268050995__0f310381-d6af-4e84-9cae-d1bca03b47d4-16873151032d0ec7b2-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "d57bca6b-63ce-4067-b85a-519e4fe61097": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "3d-nail-art",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "00c5b126-808f-408a-a011-c7de5ba7fdc9": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__00c5b126-808f-408a-a011-c7de5ba7fdc9-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #8 Iridescent Enchantment: Dive into a Shimmering Dream\n</h2><p>Immerse yourself in a world of enchantment and shimmering beauty with the captivating trend of Iridescent Enchantment. This summer, let your nails become a mesmerizing kaleidoscope of colors that reflect and dance with every movement. Embrace the allure of iridescent-chrome shades that transform your fingertips into a dazzling display of magical hues. From soft pastels to vibrant metallics, this trend invites you to step into a shimmering dream and explore a realm where elegance meets whimsy.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__00c5b126-808f-408a-a011-c7de5ba7fdc9-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pink_Minimal_Photo_Collage_Facebook_Post.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__00c5b126-808f-408a-a011-c7de5ba7fdc9-16873151032d0ec7b2-1",
+        "template--14915268050995__00c5b126-808f-408a-a011-c7de5ba7fdc9-16873151032d0ec7b2-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "c9367777-1d0b-4281-8757-afd0bb3a4c52": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "iridescent-enchantment",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "92f47325-8162-4b11-bf6e-2f88cc4f116a": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__92f47325-8162-4b11-bf6e-2f88cc4f116a-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pink_modern_friends_forever_photo_collage.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__92f47325-8162-4b11-bf6e-2f88cc4f116a-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #9 Negative Space Marvels: Embrace the Power of \"Less is More\"</h2><p>Embrace the art of subtlety and let your nails take center stage with the trend of Negative Space Marvels. This summer, it's all about celebrating the beauty of empty spaces and minimalist designs. Prepare to unleash your playful side and embark on a whimsical journey where every brushstroke becomes a creative expression of style. With clever cut-outs, artistic lines, and strategic details, your nails become a canvas of simplicity that invites exploration and captures the essence of elegance.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__92f47325-8162-4b11-bf6e-2f88cc4f116a-16873151032d0ec7b2-0",
+        "template--14915268050995__92f47325-8162-4b11-bf6e-2f88cc4f116a-16873151032d0ec7b2-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "279d7b12-2a55-4bdd-85d9-458c11bd57cc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "negative-space-marvels",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "93ebefb7-dec7-4b12-9736-66402b55382a": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14915268050995__93ebefb7-dec7-4b12-9736-66402b55382a-16873151032d0ec7b2-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Trend #10 Sunset Ombre: The Colors of a Summer Sky</h2><p>Indulge in the captivating allure of the summer sunset with the trend of Sunset Ombre. Get ready to embrace the breathtaking beauty of a sky painted with warm and vibrant hues that transition seamlessly from one shade to another. Your nails become a canvas for the mesmerizing ombre gradients that mimic the colors of the setting sun. It's a stunning tribute to the enchanting palette of a summer sky that will leave you feeling like you're chasing sunsets wherever you go.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14915268050995__93ebefb7-dec7-4b12-9736-66402b55382a-16873151032d0ec7b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Retro_Friends_Photo_Collage_1_copy.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__93ebefb7-dec7-4b12-9736-66402b55382a-16873151032d0ec7b2-1",
+        "template--14915268050995__93ebefb7-dec7-4b12-9736-66402b55382a-16873151032d0ec7b2-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "7bc98404-7d92-4631-acb1-8b6b937219ee": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "sunset-ombre",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "52c1d96f-f834-457a-b58b-086c37339b47": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14915268050995__52c1d96f-f834-457a-b58b-086c37339b47-168731476359310370-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Make Heads Turn and Nails Pop"
+          }
+        },
+        "template--14915268050995__52c1d96f-f834-457a-b58b-086c37339b47-168731476359310370-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>In a world where nails have become a canvas for self-expression, the hottest trends of 2023 have arrived to elevate your style game to new heights. From vibrant neon hues to tropical paradise vibes, elegant milky designs to mesmerizing 3D art, and the allure of iridescent enchantment to the beauty of negative space and captivating sunset ombre, these trends have captured the essence of summer and offer endless possibilities for expressing your unique beauty and creativity. So go ahead, unleash your inner nail queen, let your fingertips do the talking, and make a lasting impression wherever you go. With these mesmerizing trends, your summer style is destined to shine like never before.</p><p><strong>Nail Reformation</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14915268050995__52c1d96f-f834-457a-b58b-086c37339b47-168731476359310370-0",
+        "template--14915268050995__52c1d96f-f834-457a-b58b-086c37339b47-168731476359310370-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "dd1608a7-47a5-49b7-aee2-30a7c54c9e00",
+    "main",
+    "50cb8d7c-b008-42b7-917a-3ffc1ea60bf4",
+    "c3bc3119-14b8-4e78-8a8e-8ce4f46e6398",
+    "4d9eb1bb-7027-4215-9e2b-69c8ede9fb5e",
+    "76109d87-c575-4ee2-a39c-9135426492c3",
+    "ee640f49-ee6a-485d-9eeb-0cebb1c78a62",
+    "d074970f-12cc-47a9-bd76-f7ac543b6690",
+    "85f9a782-d452-42ac-bb45-52866ff1ad76",
+    "a7bedc12-32fc-4fc2-b513-9da2b9695459",
+    "caf01f3e-ba42-4f9f-9b9e-51d348e8ac51",
+    "05fd1d79-0026-4d18-ab47-5fa0ce20a855",
+    "576d2b42-a96d-4593-a945-eb738907effd",
+    "37acd386-05ae-4f49-8582-d4612fc57d7e",
+    "0f310381-d6af-4e84-9cae-d1bca03b47d4",
+    "d57bca6b-63ce-4067-b85a-519e4fe61097",
+    "00c5b126-808f-408a-a011-c7de5ba7fdc9",
+    "c9367777-1d0b-4281-8757-afd0bb3a4c52",
+    "92f47325-8162-4b11-bf6e-2f88cc4f116a",
+    "279d7b12-2a55-4bdd-85d9-458c11bd57cc",
+    "93ebefb7-dec7-4b12-9736-66402b55382a",
+    "7bc98404-7d92-4631-acb1-8b6b937219ee",
+    "52c1d96f-f834-457a-b58b-086c37339b47"
+  ]
+}

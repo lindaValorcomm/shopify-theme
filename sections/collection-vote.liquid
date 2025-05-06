@@ -1,0 +1,507 @@
+
+
+
+
+<div class="collection-content" data-section-id="{{ section.id }}" data-section-type="collection-grid">
+  <div id="CollectionAjaxContent">
+    <div class="page-width">
+      <div class="grid">
+        <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+          {%- render 'collection-grid-filters',
+            collection: collection,
+            enable_sidebar: section.settings.enable_sidebar,
+            filter_style: section.settings.filter_style,
+            collapsed: section.settings.collapsed,
+            enable_color_swatches: section.settings.enable_color_swatches
+          -%}
+        </div>
+        <div class="grid__item medium-up--four-fifths grid__item--content">
+          {%- for block in section.blocks -%}
+            <div {{ block.shopify_attributes }} {%- if block.type == 'product-grid' -%}data-scroll-to{%- endif -%}>
+              {%- case block.type -%}
+              {%- when 'collection_description' -%}
+                {%- if collection.description != blank and current_filter_size == 0 -%}
+                  <div class="rte collection__description">
+                    {{ collection.description }}
+                  </div>
+                {%- endif -%}
+              {%- when 'subcollections' -%}
+                {%- if current_filter_size == 0 -%}
+                  {%- render 'subcollections', per_row: block.settings.subcollections_per_row -%}
+                {%- endif -%}
+              {%- when 'product_grid' -%}
+                {%- assign paginate_by = block.settings.per_row | times: block.settings.rows_per_page -%}
+                {%- paginate collection.products by paginate_by -%}
+                  {% render 'collection-grid',
+                    collection: collection,
+                    items: collection.products,
+                    enable_sidebar: section.settings.enable_sidebar,
+                    filter_style: section.settings.filter_style,
+                    enable_sort: section.settings.enable_sort,
+                    enable_collection_count: block.settings.enable_collection_count,
+                    per_row: block.settings.per_row,
+                    mobile_flush_grid: block.settings.mobile_flush_grid,
+                    quick_shop_enable: settings.quick_shop_enable,
+                    section_id: section.id,
+                    show_vote: section.settings.show_vote
+                  %}
+                  {%- if paginate.pages > 1 -%}
+                    {%- render 'pagination', paginate: paginate -%}
+                  {%- endif -%}
+
+                {%- endpaginate -%}
+
+                {%- if section.settings.show_vote -%}
+                <!--div class="PopupWindow"
+                     style="position: fixed; z-index: 30; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0,0,0, 0.4);"
+                     onclick="this.style.display='none';">
+                  <div class="show-1201-"
+                       style="position: fixed; cursor: pointer; color: white; font-size: 32px; top: 10px; right: 35px;"
+                       onclick="this.parentNode.style.display='none';">&times;</div>
+                  <div class="PopupPage"
+                       style="margin: auto; position: fixed; scrollbar-width: thin; overflow-y: scroll; background: white; z-index: 2;
+                              top: 0; left: 0; right: 0; bottom: 0; width: 92%; height: 80%; max-width: 600px; max-height: 400px; /*padding: 3%;*/">
+                    <div class="show-1201+"
+                         style="position: relative; cursor: pointer; color: black; background: rgba(255,255,255, 0.8);
+                                line-height: 0.7; font-size: 32px; z-index: 3; width: 20px; margin: 7px 2px auto auto;"
+                         onclick="this.closest('.PopupWindow').style.display='none';">&times;</div>
+                    {%- form 'customer', id: 'newsletter-footer' -%}
+                      {%- if form.posted_successfully? -%}
+                        <div class="note note--success">{{ 'general.newsletter_form.newsletter_confirmation' | t }}</div>
+                        <script></script>
+                      {%- endif -%}
+                      {%- if form.errors -%}
+                        {{ form.errors | default_errors }}
+                      {%- endif -%}
+                      <label for="Email-{{ block.id }}" class="hidden-label">{{ 'general.newsletter_form.newsletter_email' | t }}</label>
+                      <input type="hidden" name="contact[tags]" value="prospect,newsletter">
+                      <input type="hidden" name="contact[context]" value="footer">
+                      <div class="footer__newsletter">
+                        <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}"
+                                placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
+                                name="contact[email]" id="Email-{{ block.id }}"
+                                class="footer__newsletter-input" autocorrect="off" autocapitalize="off">
+                        <button type="submit" class="footer__newsletter-btn" name="commit" aria-label="{{ 'general.newsletter_form.submit' | t }}">
+                          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-email" viewBox="0 0 64 64">
+                            <path d="M63 52H1V12h62zM1 12l25.68 24h9.72L63 12M21.82 31.68L1.56 51.16m60.78.78L41.27 31.68"/>
+                          </svg>
+                          <span class="footer__newsletter-btn-label">
+                            {{ 'general.newsletter_form.submit' | t }}
+                          </span>
+                        </button>
+                      </div>
+                    {%- endform -%}
+                  </div>
+                  <script>
+                    document.getElementsByClassName("PopupPage")[0].addEventListener("click", function(e) {
+                      //e.preventDefault();
+                      e.stopPropagation();
+                    });
+                  </script>
+                  <style>
+                    .PopupWindow { display: none; }
+                    .PopupPage form { margin: auto; text-align: center; }
+                  </style>
+                </div-->
+                <style>
+                  .grid-product__tag--sold-out { display: none; }
+                  .ssw-reviews-widget { display: none; }
+                  .ssw-stars { display: none; }
+                  .collection-filter { display: none; }
+                  .grid-product__content {
+                    padding: 10px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                  }
+                  .product-single__form { display: none; }
+                  .grid-product__price { display: none; }
+                  .grid-product { margin-bottom: 25px; }
+                  .grid-product__content .grid-product__meta { text-align: center !important; }
+                  .VoteButton { cursor: pointer; left: 0; right: 0; position: relative; border-radius: 20px; box-shadow: inset 0px 0px 0px 2px {{ section.settings.vote_color }}; }
+                  .VoteButton svg { margin: auto; cursor: pointer; display: block; fill: none; stroke-width: 6%; stroke: {{ section.settings.vote_color }}; width: 22px; height: 30px; }
+                  .VoteButton.Voted, .VoteButton:hover { background: {{ section.settings.vote_color }}; box-shadow: unset; }
+                  .VoteButton.Voted svg, .VoteButton:hover svg { stroke: #FFF; }
+                  .VoteButton img { width: 26px; }
+                  .VoteCount img { width: 18px; }
+                  .VoteCount { position: absolute; margin: auto; font-size: 13px; line-height: 2.0; top: 7px; left: auto; right: 12px; }
+                  .VoteCount svg { position: absolute; width: 22px; left: -22px; fill: none; stroke-width: 6%; stroke: {{ section.settings.vote_color }}; }
+                  .VoteCount.Voted svg { fill: {{ section.settings.vote_color }}; }
+                </style>
+
+                <div class="ProductImagePopup" onclick="this.style.display='none';">
+                  <div class="show-1301" onclick="this.parentNode.style.display='none';">&times;</div>
+                  <div class="PopupPage" xonclick="this.parentNode.style.display='none';">
+                    <div class="show-1301-" onclick="this.closest('ProductImagePopup').style.display='none';">&times;</div>
+                    <div id="carousel-{{ section.id }}" class="eclipse-carousel" style="position: relative; width: 100%;">
+                      <div class="eclipse-slider" style="position: relative; width: 100%;">
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                    .ProductImagePopup { 
+                      position: fixed; z-index: 30; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0,0,0, 0.4); display: none;
+                    }
+                    .ProductImagePopup .show-1301 {
+                      position: fixed; right: 10px; cursor: pointer; color: black;
+                      line-height: 0.7; font-size: 48px; z-index: 3; width: 40px; margin: 7px 2px auto auto;
+                    }
+                    .ProductImagePopup .PopupPage {
+                      margin: auto; position: fixed; scrollbar-width: thin; overflow-y: scroll; background: white; z-index: 2;
+                      top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; /*max-width: 1600px; max-height: 1400px;*/ /*padding: 3%;*/
+                    }
+                    .ProductImagePopup .show-1301- {
+                      position: fixed; cursor: pointer; color: white; font-size: 32px; top: 10px; right: 35px;
+                    }
+                    .PopupPage .eclipse-carousel { margin: auto; text-align: center; }
+                  </style>
+                </div>
+
+                <script>
+                /*
+                  console.log(window.klaviyo);
+                  var ooo = klaviyo.__kla_id;
+                  function myCallback() { console.log("Identify has been completed") ;}
+                  window.klaviyo.identify({}, myCallback);
+                  function OnKlaviyoID2(target) { console.log(target); }
+                  klaviyo.identify({}).then((target) => OnKlaviyoID2(target));
+                  console.log(klaviyo.identify({}));
+                  Promise.resolve(klaviyo.identify({}))
+                    .then(responses => responses.forEach(
+                      response => console.log(response.state)
+                    ));
+                  var ooo = klaviyo.identify({});    
+                  console.log(ooo);  
+                  console.log(window._learnq);
+                  var _learnq = window._learnq || [];
+                  console.log(_learnq.identify().$email);
+                */
+                function UpdateThumb(item)
+                {
+                    if (GetCookie("klaviyo_signin") != '')
+                    {
+                      var req0 = new XMLHttpRequest();
+                      req0.onreadystatechange = (function(item)
+                      {
+                        return function()
+                        {
+                          if (req0.readyState == 4 && req0.status == 200 && req0.responseText.trim() != "")
+                          {
+                            var jdata = JSON.parse(req0.responseText.trim());
+                            /*var thumbs = item.querySelector(".VoteButton").getElementsByTagName("img");
+                            if (jdata.length > 0 && jdata["message"] == null && jdata[0]["Value"] == 1)
+                            {
+                              thumbs[0].style.display = "none";
+                              thumbs[1].style.display = "block";
+                              thumbs.setAttribute("data-voted", "1");
+                            }
+                            else
+                            {
+                              thumbs[0].style.display = "block";
+                              thumbs[1].style.display = "none";
+                              thumbs.setAttribute("data-voted", "0");
+                            }*/
+                            var thumb = item.querySelector(".VoteButton");
+                            var count = item.querySelector(".VoteCount");
+                            if (jdata.length > 0 && jdata["message"] == null && jdata[0]["Value"] == 1)
+                            {
+                              thumb.classList.add("Voted");
+                              thumb.setAttribute("data-voted", "1");
+                              count.classList.add("Voted");
+                            }
+                            else
+                            {
+                              thumb.classList.remove("Voted");
+                              thumb.setAttribute("data-voted", "0");
+                              count.classList.remove("Voted");
+                            }
+                          }
+                        }
+                      })(item);
+                      req0.open("GET", "https://24h.us/nail_vote/index.php?product=" + item.getAttribute("data-product-id") + "&account=" + GetCookie("klaviyo_signin"), true);
+                      req0.send();
+                    }
+      
+                    var req1 = new XMLHttpRequest();
+                    req1.onreadystatechange = (function(item)
+                    {
+                      return function()
+                      {
+                        if (req1.readyState == 4 && req1.status == 200 && req1.responseText.trim() != "")
+                        {
+                          var jdata = JSON.parse(req1.responseText.trim());
+                          if (jdata.length > 0 && jdata["message"] == null)
+                            item.querySelector(".VoteCount span").innerHTML = jdata[0]["Count"];
+                          else
+                            item.querySelector(".VoteCount span").innerHTML = "";
+                        }
+                      }
+                    })(item);
+                    req1.open("GET", "https://24h.us/nail_vote/index.php?product=" + item.getAttribute("data-product-id") + "&value=1", true);
+                    req1.send();
+      			}
+                function OnLikeClick(event)
+                {
+                    var req2 = new XMLHttpRequest();
+                    req2.open("POST", "https://24h.us/nail_vote/index.php", true);
+                    req2.setRequestHeader("Content-Type", "application/json");
+                    req2.onreadystatechange = function()
+                    {
+                      if (req2.readyState == 4 && req2.status == 200)
+                      {
+                        var list = document.getElementsByClassName("collection-grid__wrapper")[0].getElementsByClassName("grid-product");
+                        for (var i = 0; i < list.length; i ++) {
+                          UpdateThumb(list[i]);
+                        }
+                      }
+                    };
+                    req2.send('{"product":"' + event.currentTarget.closest(".grid-product").getAttribute("data-product-id")
+                              + '","account":"' + GetCookie("klaviyo_signin") + '","client":"' + navigator.userAgent + ", " + navigator.language
+                              + '","value":"' + (event.currentTarget.getAttribute("data-voted") == "1" ? "0" : "1") + '"}');
+                }
+
+                document.addEventListener('DOMContentLoaded', function() {
+                  var grids = document.querySelector(".collection-grid__wrapper").getElementsByClassName("grid-product");
+                  for (var i = 0; i < grids.length; i ++)
+                  {
+                    var image = grids[i].querySelector(".grid-product__link");
+                    image.setAttribute("href", "#");
+                    var title = grids[i].querySelector(".grid-product__meta");
+                    title.querySelector("a").setAttribute("href", "#");
+                    var count = document.createElement('div');
+                    count.className = "VoteCount";
+                    count.innerHTML = `
+                        <img src="{{ section.settings.vote_icon1 | img_url: "master" }}">
+                        <!--svg version="1.1" viewBox="0 0 130 130">
+                        <path d="M 65,29 C 59,19 49,12 37,12 20,12 7,25 7,42 7,75 25,80 65,118 105,80 123,75 123,42 123,25 110,12 93,12 81,12 71,19 65,29 z"></path>
+                        </svg-->
+                        <span></span>`;
+                    title.insertBefore(count, title.querySelector("a"));
+                    var button = document.createElement('div');
+                    button.className = "VoteButton";
+                    button.setAttribute("data-voted", "0");
+                    button.innerHTML = `
+                        <img src="{{ section.settings.vote_icon1 | img_url: "master" }}">
+                        <!--svg version="1.1" viewBox="0 0 130 130">
+                        <path d="M 65,29 C 59,19 49,12 37,12 20,12 7,25 7,42 7,75 25,80 65,118 105,80 123,75 123,42 123,25 110,12 93,12 81,12 71,19 65,29 z"></path>
+                        </svg-->
+                        <!--span>I choose this</span-->
+                        <!--img src="{{ section.settings.vote_icon2 | img_url: "master" }}">
+                        <img src="{{ section.settings.vote_icon1 | img_url: "master" }}"-->`;
+                    title.insertBefore(button, title.querySelector("a").nextSibling);
+
+                    UpdateThumb(grids[i]);
+                    grids[i].querySelector(".VoteButton").addEventListener('click', OnLikeClick);
+
+                    image.addEventListener("click", function(e)
+                    {
+                      var pimages = e.currentTarget.closest(".grid__item.grid-product").getAttribute("data-product-images").trim().split(" ");
+                      var slider = e.currentTarget.querySelector(".image-wrap");
+                      slider.innerHTML = "";
+                      for (var j = 0; j < pimages.length; j ++)
+                        slider.innerHTML += '<img class="photoswipe__image js-photoswipe__zoom" data-index="' + j
+                                          + '" data-photoswipe-width="' + document.body.clientWidth
+                                          + '" data-photoswipe-height="' + document.body.clientWidth
+                                          + '" data-photoswipe-src="' + pimages[j]
+                                          + '" src="' + pimages[j]
+                                          + '" style="opacity: 1;">';
+                      var imageZoom = new theme.Photoswipe(slider.parentElement, "{{ section.id }}");
+                      slider.querySelector(".photoswipe__image").click();
+                      //e.stopPropagation();
+
+                    });
+                  }
+                  document.getElementsByClassName("PopupPage")[0].addEventListener("click", function(e) {
+                    //e.preventDefault();
+                    e.stopPropagation();
+                  });
+                });
+                </script>
+
+                {%- endif -%}
+              {%- endcase -%}
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- if section.settings.enable_sidebar == false or section.settings.filter_style == 'drawer' -%}
+{% comment %}
+  Override grid styles if sidebar is disabled
+{% endcomment %}
+{% style %}
+  .collection-content .grid__item--sidebar { width: 0; }
+  .collection-content .grid__item--content { width: 100%; }
+  .grid__item--sidebar { position: static; overflow: hidden; }
+{% endstyle %}
+{%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "CollectionPage",
+  {% if collection.description != blank %}
+    "description": {{ collection.description | strip_html | json }},
+  {% endif %}
+  {% if page_image %}
+    {% assign image_size = page_image.width | append: 'x' %}
+    "image": {
+      "@type": "ImageObject",
+      "height": {{ page_image.height | json }},
+      "url": {{ page_image | img_url: image_size | prepend: "https:" | json }},
+      "width": {{ page_image.width | json }}
+    },
+  {% endif %}
+  "name": {{ collection.title | json }}
+}
+</script>
+
+{% schema %}
+  {
+    "name": "Vote collection",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Filtering and sorting"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sidebar",
+        "label": "Enable filter",
+        "default": true,
+        "info": "Allow your customers to filter collections and search results by product availability, price, color, and more. [Customize filters](/admin/menus)"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_vote",
+        "label": "Show vote button",
+        "default": true
+      },
+      {
+          "type": "color",
+          "id": "vote_color",
+          "label": "Vote color"
+      },
+      {
+          "type": "image_picker",
+          "id": "vote_icon1",
+          "label": "Vote icon 1"
+      },
+      {
+          "type": "image_picker",
+          "id": "vote_icon2",
+          "label": "Vote icon 2 (not used)"
+      },
+      {
+        "type": "checkbox",
+        "id": "collapsed",
+        "label": "Collapse filters",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "filter_style",
+        "label": "Filter style",
+        "default": "sidebar",
+        "options": [
+          {
+            "value": "sidebar",
+            "label": "Sidebar"
+          },
+          {
+            "value": "drawer",
+            "label": "Drawer"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_color_swatches",
+        "label": "Enable color swatches",
+        "info": "[View setup instructions](https://archetypethemes.co/blogs/impulse/how-do-i-set-up-color-swatches)"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sort",
+        "label": "Show sort options",
+        "default": true
+      },
+      {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Title icon"
+      },
+      {
+          "type": "page",
+          "id": "target_page",
+          "label": "Target Page"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "collection_description",
+        "name": "Collection description",
+        "limit": 1
+      },
+      {
+        "type": "product_grid",
+        "name": "Products",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "enable_collection_count",
+            "label": "Enable collection count",
+            "default": true
+          },
+          {
+            "type": "range",
+            "id": "per_row",
+            "label": "Products per row",
+            "default": 4,
+            "min": 2,
+            "max": 5,
+            "step": 1
+          },
+          {
+            "type": "range",
+            "id": "rows_per_page",
+            "label": "Rows per page",
+            "default": 7,
+            "min": 3,
+            "max": 20,
+            "step": 1
+          },
+          {
+            "type": "checkbox",
+            "id": "mobile_flush_grid",
+            "label": "Flush grid on mobile",
+            "default": false
+          }
+        ],
+        "limit": 1
+      },
+      {
+        "type": "subcollections",
+        "name": "Subcollections",
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Links to collections from your menu will appear here. [Learn more](https://archetypethemes.co/blogs/expanse/how-do-i-create-subcollections)"
+          },
+          {
+            "type": "range",
+            "id": "subcollections_per_row",
+            "label": "Subcollections per row",
+            "default": 5,
+            "min": 2,
+            "max": 5,
+            "step": 1
+          }
+        ],
+        "limit": 1
+      }
+    ]
+
+  }
+{% endschema %}

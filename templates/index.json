@@ -1,0 +1,1057 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "92d04090-d7db-4238-b617-6bf9301ae36d": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__92d04090-d7db-4238-b617-6bf9301ae36d-16723062601b554ee7-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20250305_NAIL_REFORMATION_0343_copy.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__92d04090-d7db-4238-b617-6bf9301ae36d-16723062601b554ee7-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20250305_NAIL_REFORMATION_0246_copy.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__92d04090-d7db-4238-b617-6bf9301ae36d-16723062601b554ee7-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_01-05-2025-17-42-46.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__92d04090-d7db-4238-b617-6bf9301ae36d-16723062601b554ee7-1",
+        "template--14765628358707__92d04090-d7db-4238-b617-6bf9301ae36d-16723062601b554ee7-2",
+        "template--14765628358707__92d04090-d7db-4238-b617-6bf9301ae36d-16723062601b554ee7-0"
+      ],
+      "settings": {
+        "title": "Tutti Frutti",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f1e4de",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Inspired by the bright and vibrant hues of fresh berries, juicy citrus, and tropical produce, this collection bursts with energy and fun. </p>",
+        "text_font_size": 12,
+        "button_label": "shop now",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "166430060516c4633c": {
+      "type": "text-columns",
+      "blocks": {
+        "1664300605ad7bb194-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Facetune_01-05-2025-15-27-40.jpg",
+            "image_width": 650,
+            "title": "Mon Cherie",
+            "heading_font_size": 15,
+            "text": "",
+            "text_font_size": 15,
+            "button_label": "",
+            "button_link": "shopify://products/mon-cherie",
+            "custom_content": ""
+          }
+        },
+        "1664300605ad7bb194-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Facetune_01-05-2025-16-05-08.jpg",
+            "image_width": 650,
+            "title": "Lemon Squeezy",
+            "heading_font_size": 15,
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://products/lemon-squeezy",
+            "custom_content": ""
+          }
+        },
+        "1664300605ad7bb194-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Facetune_01-05-2025-15-56-47.jpg",
+            "image_width": 650,
+            "title": "Cherry Picnic",
+            "heading_font_size": 15,
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://products/cherry-picnic",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664300605ad7bb194-0",
+        "1664300605ad7bb194-2",
+        "1664300605ad7bb194-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "1d849ceb-a883-485b-aed9-d2ed392555a0": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__1d849ceb-a883-485b-aed9-d2ed392555a0-1676697404b71eb610-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_24-04-2025-19-05-39.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__1d849ceb-a883-485b-aed9-d2ed392555a0-1676697404b71eb610-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_24-04-2025-19-11-15_2.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__1d849ceb-a883-485b-aed9-d2ed392555a0-1676697404b71eb610-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_24-04-2025-19-04-45.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__1d849ceb-a883-485b-aed9-d2ed392555a0-1676697404b71eb610-2",
+        "template--14765628358707__1d849ceb-a883-485b-aed9-d2ed392555a0-1676697404b71eb610-0",
+        "template--14765628358707__1d849ceb-a883-485b-aed9-d2ed392555a0-1676697404b71eb610-1"
+      ],
+      "settings": {
+        "title": "Clean Slate",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f0eae5",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>This collection captures the breezy essence of the season with airy neutrals, soft sheers, and subtle, refined details.</p>",
+        "text_font_size": 12,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "0484aab2-975f-49f0-beb6-a98a67d5c847": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__0484aab2-975f-49f0-beb6-a98a67d5c847-167146861507ca2dba-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Magenta_Majesty_NAIL_REFORMATION_1552_2_9f4420c5-4a2f-4257-8ebe-313632a635bd.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__0484aab2-975f-49f0-beb6-a98a67d5c847-167146861507ca2dba-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_17-04-2025-20-51-26.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__0484aab2-975f-49f0-beb6-a98a67d5c847-167146861507ca2dba-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Magenta_MajestyNAIL_REFORMATION_1528_4.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__0484aab2-975f-49f0-beb6-a98a67d5c847-167146861507ca2dba-0",
+        "template--14765628358707__0484aab2-975f-49f0-beb6-a98a67d5c847-167146861507ca2dba-2",
+        "template--14765628358707__0484aab2-975f-49f0-beb6-a98a67d5c847-167146861507ca2dba-1"
+      ],
+      "settings": {
+        "title": "Marble Mania",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f2f0e8",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Inspired by radiant gems, marble swirls, and shimmering minerals, this collection turns your nails into stunning, artful statements.</p>",
+        "text_font_size": 12,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#111111",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "custom_featured_collections_Dr6Ggr": {
+      "type": "custom-featured-collections",
+      "blocks": {
+        "collection_3eRQCg": {
+          "type": "collection",
+          "settings": {
+            "collection": "almond",
+            "title": "Almond",
+            "custom_image": "shopify://shop_images/NailReformation.12.24-89.jpg",
+            "focal_point": "center center"
+          }
+        },
+        "collection_C7n3rK": {
+          "type": "collection",
+          "settings": {
+            "collection": "round",
+            "title": "",
+            "custom_image": "shopify://shop_images/ReformationNail.7.24-6.jpg",
+            "focal_point": "center center"
+          }
+        },
+        "collection_7qh3nH": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffin",
+            "title": "",
+            "custom_image": "shopify://shop_images/20241210_NAIL-REFORMATION_0666_7f67be90-e576-46c8-9a57-fcbb33a6a93f.jpg",
+            "focal_point": "center center"
+          }
+        },
+        "collection_cFatyj": {
+          "type": "collection",
+          "settings": {
+            "collection": "square",
+            "title": "",
+            "custom_image": "shopify://shop_images/ReformationNail.7.24-58.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3eRQCg",
+        "collection_C7n3rK",
+        "collection_7qh3nH",
+        "collection_cFatyj"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.section-header {margin-bottom: 20px; }}",
+        ".section-header__title {font-size: calc(var(--typeHeaderSize) * 0.7); font-weight: 500;}",
+        ".collection-item__title--overlaid-box > span {padding: 12px 15px;}",
+        ".collection-item__title span {display: flex; justify-content: center; align-items: center; color: rgb(94, 94, 94); font-weight: 400; font-size: 0.65em;}",
+        ".collection-item__title span:hover {color: #000000;}"
+      ],
+      "settings": {
+        "title": "SHOP BY SHAPE",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "887d62fe-d27b-4d94-a626-c064665410c3": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__887d62fe-d27b-4d94-a626-c064665410c3-16753122929029c3c6-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20250305_NAIL_REFORMATION_2081_copy.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__887d62fe-d27b-4d94-a626-c064665410c3-16753122929029c3c6-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20250305_NAIL_REFORMATION_0556_copy.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__887d62fe-d27b-4d94-a626-c064665410c3-16753122929029c3c6-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20250305_NAIL_REFORMATION_2087_copy.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__887d62fe-d27b-4d94-a626-c064665410c3-16753122929029c3c6-1",
+        "template--14765628358707__887d62fe-d27b-4d94-a626-c064665410c3-16753122929029c3c6-0",
+        "template--14765628358707__887d62fe-d27b-4d94-a626-c064665410c3-16753122929029c3c6-2"
+      ],
+      "settings": {
+        "title": "Introducing French Pressed Flowers",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#eacccc",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Each design offers a tantalizing blend of tastes and looks, meticulously curated to bring a burst of freshness and style to your fingertips.</p>",
+        "text_font_size": 12,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "147c55ba-df09-4da2-8f7d-4e1ddfc324c2": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__147c55ba-df09-4da2-8f7d-4e1ddfc324c2-1673594872a6d33dcb-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20241115_NAIL-REFORMATION_1578.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__147c55ba-df09-4da2-8f7d-4e1ddfc324c2-1673594872a6d33dcb-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20241115_NAIL-REFORMATION_2983.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__147c55ba-df09-4da2-8f7d-4e1ddfc324c2-1673594872a6d33dcb-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20241115_NAIL-REFORMATION_1458.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__147c55ba-df09-4da2-8f7d-4e1ddfc324c2-1673594872a6d33dcb-1",
+        "template--14765628358707__147c55ba-df09-4da2-8f7d-4e1ddfc324c2-1673594872a6d33dcb-2",
+        "template--14765628358707__147c55ba-df09-4da2-8f7d-4e1ddfc324c2-1673594872a6d33dcb-0"
+      ],
+      "settings": {
+        "title": "Introducing The Short List",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#cad4e2",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Designed to capture the essence of refined elegance, perfect for everyday wear or special occasions.</p>",
+        "text_font_size": 12,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#111111",
+        "button_color": "#111111",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "3e75974e-bfde-4dff-8102-1bf30c9ce223": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__3e75974e-bfde-4dff-8102-1bf30c9ce223-16715066018e58ff55-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20241115_NAIL-REFORMATION_0299_661cfce6-4bbf-4dd9-b8a2-6edd655e9f06.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__3e75974e-bfde-4dff-8102-1bf30c9ce223-16715066018e58ff55-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20241115_NAIL-REFORMATION_0014_0cdbf197-6b38-4c57-a448-a16864b03531.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__3e75974e-bfde-4dff-8102-1bf30c9ce223-16715066018e58ff55-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20241115_NAIL-REFORMATION_0780_346f37a0-9841-4cc7-9010-f55546f6e011.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__3e75974e-bfde-4dff-8102-1bf30c9ce223-16715066018e58ff55-2",
+        "template--14765628358707__3e75974e-bfde-4dff-8102-1bf30c9ce223-16715066018e58ff55-1",
+        "template--14765628358707__3e75974e-bfde-4dff-8102-1bf30c9ce223-16715066018e58ff55-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Love At First Press",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f9eff0",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>From dainty hearts to dazzling jewels, this collection is all about embracing love in style. </p>",
+        "text_font_size": 12,
+        "button_label": "Shop now",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#111111",
+        "button_background": "#ffffff",
+        "button_hover": "#e4acb0",
+        "divider": false
+      }
+    },
+    "389f7a27-5e8e-487a-9c0e-a2fc7b075add": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__389f7a27-5e8e-487a-9c0e-a2fc7b075add-1671578463256fb861-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0753.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__389f7a27-5e8e-487a-9c0e-a2fc7b075add-1671578463256fb861-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0675_29183cef-322c-41a8-9a63-f00d77f141e0.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__389f7a27-5e8e-487a-9c0e-a2fc7b075add-1671578463256fb861-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0619.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__389f7a27-5e8e-487a-9c0e-a2fc7b075add-1671578463256fb861-0",
+        "template--14765628358707__389f7a27-5e8e-487a-9c0e-a2fc7b075add-1671578463256fb861-2",
+        "template--14765628358707__389f7a27-5e8e-487a-9c0e-a2fc7b075add-1671578463256fb861-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Cozy to Perfection",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#dfc3c9",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Save a spot on your wishlist for the essential manicure your fingertips need. </p>",
+        "text_font_size": 12,
+        "button_label": "SHOP now",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#111111",
+        "button_color": "#111111",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "04a63616-3558-4f3c-a9ae-15c96d3a52a7": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__04a63616-3558-4f3c-a9ae-15c96d3a52a7-image_block-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240716_NAIL_REFORMATION_1892.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__04a63616-3558-4f3c-a9ae-15c96d3a52a7-image_block-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240716_NAIL_REFORMATION_1912_copy.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__04a63616-3558-4f3c-a9ae-15c96d3a52a7-image_block-3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240716_NAIL_REFORMATION_1969_14dc716f-0a9d-471e-a172-d09681e3550e.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__04a63616-3558-4f3c-a9ae-15c96d3a52a7-image_block-2",
+        "template--14765628358707__04a63616-3558-4f3c-a9ae-15c96d3a52a7-image_block-1",
+        "template--14765628358707__04a63616-3558-4f3c-a9ae-15c96d3a52a7-image_block-3"
+      ],
+      "settings": {
+        "title": "Chapter of Pink Flare",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#cad3d9",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Discover our latest collection, filled with perpetual elegance thoughtfully designed to dance delicately across your nails. </p>",
+        "text_font_size": 12,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#111111",
+        "button_color": "#111111",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "db7c2f81-2c30-4a9f-b653-17f84e303a51": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__db7c2f81-2c30-4a9f-b653-17f84e303a51-168169853893a3f492-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0216.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__db7c2f81-2c30-4a9f-b653-17f84e303a51-168169853893a3f492-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0334.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__db7c2f81-2c30-4a9f-b653-17f84e303a51-168169853893a3f492-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0418.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__db7c2f81-2c30-4a9f-b653-17f84e303a51-168169853893a3f492-1",
+        "template--14765628358707__db7c2f81-2c30-4a9f-b653-17f84e303a51-168169853893a3f492-2",
+        "template--14765628358707__db7c2f81-2c30-4a9f-b653-17f84e303a51-168169853893a3f492-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Glimmering Harvest",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f1e4de",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Crafted for those who believe that a little of sparkle is essential to showcasing their vibrant personalities and impeccable style.</p>",
+        "text_font_size": 12,
+        "button_label": "Shop Now",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "35fcddcc-a4f3-4182-9349-c0e9a0ad3617": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__35fcddcc-a4f3-4182-9349-c0e9a0ad3617-1680489960a599df8e-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240716_NAIL_REFORMATION_1460.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__35fcddcc-a4f3-4182-9349-c0e9a0ad3617-1680489960a599df8e-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240716_NAIL_REFORMATION_1484.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__35fcddcc-a4f3-4182-9349-c0e9a0ad3617-1680489960a599df8e-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/20240716_NAIL_REFORMATION_1403.jpg",
+            "image_link": "shopify://collections/all-dreamiest-press-on-nails",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__35fcddcc-a4f3-4182-9349-c0e9a0ad3617-1680489960a599df8e-0",
+        "template--14765628358707__35fcddcc-a4f3-4182-9349-c0e9a0ad3617-1680489960a599df8e-1",
+        "template--14765628358707__35fcddcc-a4f3-4182-9349-c0e9a0ad3617-1680489960a599df8e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Fun Under The Sun",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f0eeeb",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>meticulously crafted to enhance your natural glow and add a touch of magic to your fingertips.</p>",
+        "text_font_size": 12,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "80732305-8094-4182-9d09-cc99cb7aa467": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14765628358707__80732305-8094-4182-9d09-cc99cb7aa467-1681699490ddf505e7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ER6A8765.jpg",
+            "image_width": 650,
+            "title": "METAMORPHOSIS",
+            "heading_font_size": 15,
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://products/metamorphosis",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__80732305-8094-4182-9d09-cc99cb7aa467-1681699490ddf505e7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ER6A8734.jpg",
+            "image_width": 650,
+            "title": "ICY ICON",
+            "heading_font_size": 15,
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://products/icy-icon",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__80732305-8094-4182-9d09-cc99cb7aa467-1681699490ddf505e7-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ER6A8742.jpg",
+            "image_width": 650,
+            "title": "SWEET HEART",
+            "heading_font_size": 15,
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://products/sweetheart",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__80732305-8094-4182-9d09-cc99cb7aa467-1681699490ddf505e7-0",
+        "template--14765628358707__80732305-8094-4182-9d09-cc99cb7aa467-1681699490ddf505e7-1",
+        "template--14765628358707__80732305-8094-4182-9d09-cc99cb7aa467-1681699490ddf505e7-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "354b33b8-36cc-41d7-833e-2f9945191096": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__354b33b8-36cc-41d7-833e-2f9945191096-1672192527386a93a9-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_22-03-2023-18-01-09_2.jpg",
+            "image_link": "shopify://products/sun-kissed",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__354b33b8-36cc-41d7-833e-2f9945191096-1672192527386a93a9-2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_22-03-2023-18-04-47.jpg",
+            "image_link": "shopify://products/spring-fling",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__354b33b8-36cc-41d7-833e-2f9945191096-1672192527386a93a9-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_22-03-2023-18-11-42.jpg",
+            "image_link": "shopify://products/tulip-twirl",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__354b33b8-36cc-41d7-833e-2f9945191096-1672192527386a93a9-1",
+        "template--14765628358707__354b33b8-36cc-41d7-833e-2f9945191096-1672192527386a93a9-2",
+        "template--14765628358707__354b33b8-36cc-41d7-833e-2f9945191096-1672192527386a93a9-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Painted Petals",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#deccdf",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>A delicate, ethereal and effortlessly floral collection designed to bring out the natural beauty of your fingertips and let it bloom.</p>",
+        "text_font_size": 12,
+        "button_label": "shop now",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "c11ee799-5bf3-472a-adee-22556fa32f7d": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__c11ee799-5bf3-472a-adee-22556fa32f7d-168076076523aa41c0-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_01-04-2023-17-37-55_3.jpg",
+            "image_link": "shopify://products/royal-highness",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__c11ee799-5bf3-472a-adee-22556fa32f7d-168076076523aa41c0-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_05-04-2023-23-06-48.jpg",
+            "image_link": "shopify://products/social-butterfly",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__c11ee799-5bf3-472a-adee-22556fa32f7d-168076076523aa41c0-2": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__c11ee799-5bf3-472a-adee-22556fa32f7d-168076076523aa41c0-0",
+        "template--14765628358707__c11ee799-5bf3-472a-adee-22556fa32f7d-168076076523aa41c0-1",
+        "template--14765628358707__c11ee799-5bf3-472a-adee-22556fa32f7d-168076076523aa41c0-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "A LOVE THAT NEVER FADES",
+        "padding": "15px",
+        "mobile_width": "",
+        "background_color": "#f2e7d4",
+        "align_image": "bottom",
+        "align_text": "bottom",
+        "heading_font_size": 14,
+        "text": "<p>Renowned for their exceptional craftsmanship and timeless style. Explore classic signet rings or create your own ring stack.</p>",
+        "text_font_size": 12,
+        "button_label": "shop now",
+        "button_link": "shopify://collections/all-accessories",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#f7dbd8",
+        "button_hover": "#e4acb0",
+        "divider": false
+      }
+    },
+    "16566414364c45d18d": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "September 28 - October 3",
+        "title": "limited time sale",
+        "text": "Buy 1 10% off, use code \"10OFF\" \nBuy 2 15% off, use code \"15OFF\" \nBuy 3 25% off, use code \"25OFF\"",
+        "button_label": "shop now",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "image": "shopify://shop_images/MMA_1597RT.jpg",
+        "bk_color": "#ffffff",
+        "bk_opacity": 0.4,
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "1643213963d9993043": {
+      "type": "advanced-content",
+      "blocks": {
+        "1643213963789c471b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div \nid=\"e4bde3b168504766bdb55198a0ae4f69\" style=\"background-color:#F7DBD8;padding-left:15px;padding-right:15px;\" >\n<div >\n<img src=\"https://cdn.shopify.com/s/files/1/0552/8138/5523/files/MMA_2429_copy.jpg?v=1664303250\" />\n<div style=\"font-size:20px;color:white;font-weight:700;\">\nBONE\n</div>\n<div style=\"font-size:16px;color:white;\">\nAngelic\n</div>\n</div>\n</div>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "1643213963789c471b-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "1664300232cfdf5b85": {
+      "type": "text-columns",
+      "blocks": {
+        "16643002323e464832-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_6351.jpg",
+            "image_width": 650,
+            "title": "Value GIFTbox",
+            "heading_font_size": 16,
+            "text": "<p>Free floral nail art with purchase. The ultimate luxury gift for press-on nail lovers.</p>",
+            "text_font_size": 12,
+            "button_label": "",
+            "button_link": "shopify://products/gift-box",
+            "custom_content": ""
+          }
+        },
+        "16643002323e464832-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/MMA_1307RT_c3915c0e-77bd-4514-825f-20cbce22f2fe.jpg",
+            "image_width": 650,
+            "title": "Get a taste of Strawberry Shortcake",
+            "heading_font_size": 16,
+            "text": "<p>The timeless creation exemplifies Nail Reformation's savoir-faire.</p>",
+            "text_font_size": 12,
+            "button_label": "",
+            "button_link": "shopify://products/strawberry-shortcake",
+            "custom_content": "<div style=\"position: absolute; top: 0; left: 0;\"><video muted=\"\" playsinline=\"\" autoplay=\"\" loop=\"\" type=\"video/mp4\" style=\"  transform: translateY(-20%);\" src=\"https://cdn.shopify.com/videos/c/o/v/0ad24b2f5b5f4666aaff60aa3b62eeba.mp4\" width=\"100%\"></video></div>"
+          }
+        }
+      },
+      "block_order": [
+        "16643002323e464832-0",
+        "16643002323e464832-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "35bf8811-b0ab-48da-a315-4cf6277ddbe1": {
+      "type": "image-columns",
+      "blocks": {
+        "template--14765628358707__35bf8811-b0ab-48da-a315-4cf6277ddbe1-1675841252f180f822-0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/MMA_2429RT_8f10fe4d-78cb-48ba-b0d4-b1ba9775f0fa.jpg",
+            "image_link": "shopify://pages/student-discount",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__35bf8811-b0ab-48da-a315-4cf6277ddbe1-1675841252f180f822-1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/MMA_2693RT_dba70bba-8918-41e6-becc-addb60b201f3.jpg",
+            "image_link": "shopify://pages/student-discount",
+            "custom_content": ""
+          }
+        },
+        "template--14765628358707__35bf8811-b0ab-48da-a315-4cf6277ddbe1-1675841252f180f822-2": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628358707__35bf8811-b0ab-48da-a315-4cf6277ddbe1-1675841252f180f822-0",
+        "template--14765628358707__35bf8811-b0ab-48da-a315-4cf6277ddbe1-1675841252f180f822-1",
+        "template--14765628358707__35bf8811-b0ab-48da-a315-4cf6277ddbe1-1675841252f180f822-2"
+      ],
+      "settings": {
+        "title": "student program",
+        "padding": "15px",
+        "mobile_width": "300% - 50px",
+        "background_color": "#f7dbd8",
+        "align_image": "bottom",
+        "align_text": "left",
+        "heading_font_size": 14,
+        "text": "<p>Save on our sweetest berry inspired manicure with Nail Reformation student discount program</p>",
+        "text_font_size": 12,
+        "button_label": "JOIN NOW",
+        "button_link": "shopify://pages/student-discount",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_background": "#ffffff",
+        "button_hover": "#f8d1cf",
+        "divider": false
+      }
+    },
+    "167090414916c13dbd": {
+      "type": "apps",
+      "blocks": {
+        "74fcdd2b-fd31-41bf-aa9c-8827ea948ff8": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "74fcdd2b-fd31-41bf-aa9c-8827ea948ff8"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "featured_collections_EXEbAN": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_FGzTC7": {
+          "type": "collection",
+          "settings": {
+            "collection": "almond",
+            "title": "",
+            "focal_point": "bottom center"
+          }
+        },
+        "collection_FLEPt7": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffin",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_gW8ceb": {
+          "type": "collection",
+          "settings": {
+            "collection": "square",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_4RiBcz": {
+          "type": "collection",
+          "settings": {
+            "collection": "round",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FGzTC7",
+        "collection_FLEPt7",
+        "collection_gW8ceb",
+        "collection_4RiBcz"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOP BY SHAPE",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    }
+  },
+  "order": [
+    "92d04090-d7db-4238-b617-6bf9301ae36d",
+    "166430060516c4633c",
+    "1d849ceb-a883-485b-aed9-d2ed392555a0",
+    "0484aab2-975f-49f0-beb6-a98a67d5c847",
+    "custom_featured_collections_Dr6Ggr",
+    "887d62fe-d27b-4d94-a626-c064665410c3",
+    "147c55ba-df09-4da2-8f7d-4e1ddfc324c2",
+    "3e75974e-bfde-4dff-8102-1bf30c9ce223",
+    "389f7a27-5e8e-487a-9c0e-a2fc7b075add",
+    "04a63616-3558-4f3c-a9ae-15c96d3a52a7",
+    "db7c2f81-2c30-4a9f-b653-17f84e303a51",
+    "35fcddcc-a4f3-4182-9349-c0e9a0ad3617",
+    "80732305-8094-4182-9d09-cc99cb7aa467",
+    "354b33b8-36cc-41d7-833e-2f9945191096",
+    "c11ee799-5bf3-472a-adee-22556fa32f7d",
+    "16566414364c45d18d",
+    "1643213963d9993043",
+    "1664300232cfdf5b85",
+    "35bf8811-b0ab-48da-a315-4cf6277ddbe1",
+    "167090414916c13dbd",
+    "featured_collections_EXEbAN"
+  ]
+}

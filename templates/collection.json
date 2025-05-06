@@ -1,0 +1,526 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "16648666328c250cd2": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "September 29 - October 20",
+        "title": "WE SELL WHAT YOU CHOOSE",
+        "text": "<p>Receive $5 Gift Card for participating</p><p>Random winner will win the whole collection</p><p></p>",
+        "button_label": "VOTE NOW",
+        "button_link": "shopify://collections/vote",
+        "image": "shopify://shop_images/MMA_4332RT.jpg",
+        "bk_color": "#ffffff",
+        "bk_opacity": 0.3,
+        "focal_point": "80% 50%",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "5da20c0d-3b2f-4dbe-91a6-94c5921a7e49": {
+      "type": "slideshow",
+      "blocks": {
+        "903204b8-e6c7-47fa-a4f1-99227ca8cbb0": {
+          "type": "image",
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "Tutti Frutti",
+            "title_size": 45,
+            "subheading": "Each design bursts with fruity flair for a manicure that’s bold and refreshingly fun.",
+            "link": "shopify://collections/all-dreamiest-press-on-nails",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/20250305_NAIL_REFORMATION_1336_copy.jpg",
+            "image_mobile": "shopify://shop_images/20250305_NAIL_REFORMATION_1336_copy.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "625b011c-8e75-42e6-ad57-bb20e7b45c5c": {
+          "type": "image",
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "Clean Slate",
+            "title_size": 45,
+            "subheading": "This collection brings effortlessly chic press-ons in soft neutrals and airy designs.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Petal_Lace_NAIL_REFORMATION_0731.jpg",
+            "image_mobile": "shopify://shop_images/Petal_Lace_NAIL_REFORMATION_0731.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "0904c6dd-993b-4089-a439-6243c9f2a2cb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "4/11 – 4/21",
+            "title": "Spring into Self-Care",
+            "title_size": 45,
+            "subheading": "Buy 5 press-on sets, you’ll get a free hair clip — the perfect little self-care bonus.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Petal_Lace_NAIL_REFORMATION_0731.jpg",
+            "image_mobile": "shopify://shop_images/Petal_Lace_NAIL_REFORMATION_0731.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--14765627932723__5da20c0d-3b2f-4dbe-91a6-94c5921a7e49-167138899731705b27-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "favorite treats",
+            "title_size": 40,
+            "subheading": "Inspired by the cozy, rich flavors that add the perfect touch of fall charm to your style.",
+            "link": "shopify://collections/all-dreamiest-press-on-nails",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/20240831_NAILREFORMATION_0162_541e08ea-6a77-4431-87ed-87a4b4e01d80.jpg",
+            "image_mobile": "shopify://shop_images/20240831_NAILREFORMATION_0162_541e08ea-6a77-4431-87ed-87a4b4e01d80.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "6065fd14-97d7-4104-a311-1ccf7c6a66ca": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "Drift away on goldenhour daydreams WITH",
+            "title": "CLOUD NINE",
+            "title_size": 45,
+            "subheading": "Infused with the dreamy essence of clouds",
+            "link": "",
+            "link_text": "",
+            "link_2": "shopify://products/cloud-nine",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/MMA_6186RT_a36567e7-4985-42b3-be53-94da65f224b3.jpg",
+            "image_mobile": "shopify://shop_images/MMA_6186RT_a36567e7-4985-42b3-be53-94da65f224b3.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "903204b8-e6c7-47fa-a4f1-99227ca8cbb0",
+        "625b011c-8e75-42e6-ad57-bb20e7b45c5c",
+        "0904c6dd-993b-4089-a439-6243c9f2a2cb",
+        "template--14765627932723__5da20c0d-3b2f-4dbe-91a6-94c5921a7e49-167138899731705b27-0",
+        "6065fd14-97d7-4104-a311-1ccf7c6a66ca"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "250px",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 6
+      }
+    },
+    "97310a43-8fd6-44ab-bd5a-6c043adbec57": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14765627932723__97310a43-8fd6-44ab-bd5a-6c043adbec57-1670993337dc272665-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Red_and_Green_Modern_Merry_Christmas_Banner_0fe215fc-b1d4-4934-bece-5d1a32e8f3c2.gif",
+            "image_width": 650,
+            "title": "CHRISTMAS SALE",
+            "heading_font_size": 17,
+            "text": "<p><strong>UP TO 45% OFF SITE-WIDE </strong>The last sale of the year is here and you don't want to miss it 🎄💖</p>",
+            "text_font_size": 12,
+            "button_label": "",
+            "button_link": "",
+            "custom_content": ""
+          }
+        },
+        "template--14765627932723__97310a43-8fd6-44ab-bd5a-6c043adbec57-1670993337dc272665-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Red_and_Green_Modern_Merry_Christmas_Banner.jpg",
+            "image_width": 650,
+            "title": "HOLIDAY GIFTBOX",
+            "heading_font_size": 17,
+            "text": "<p><strong>SHOP AND SAVE</strong> Shop 3 sets for $48 with $60 value, or 5 sets for $75 with $100 value 💨 🛍️</p>",
+            "text_font_size": 12,
+            "button_label": "",
+            "button_link": "",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627932723__97310a43-8fd6-44ab-bd5a-6c043adbec57-1670993337dc272665-0",
+        "template--14765627932723__97310a43-8fd6-44ab-bd5a-6c043adbec57-1670993337dc272665-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "13965674-2061-4070-8138-22cb706980a0": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14765627932723__13965674-2061-4070-8138-22cb706980a0-1670973972db048a34-0": {
+          "type": "image",
+          "settings": {
+            "promo_collection": "home-page-product",
+            "promo_collection_text": "",
+            "top_subheading": "GIVE THE GIFT OF NAIL REFORMATION",
+            "title": "LIMITED HOLIDAY GIFTBOX",
+            "title_size": 46,
+            "subheading": "Allow you to choose ANY 3 or 5 bestselling designs for yourself or your BFF",
+            "link": "shopify://products/gift-box",
+            "link_text": "SHOP HOLIDAY GIFTBOX",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Red_and_Green_Modern_Merry_Christmas_Banner_cc868c0c-ff66-4f44-81c2-54bcb53ffafb.gif",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--14765627932723__13965674-2061-4070-8138-22cb706980a0-1670973972db048a34-1": {
+          "type": "image",
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627932723__13965674-2061-4070-8138-22cb706980a0-1670973972db048a34-0",
+        "template--14765627932723__13965674-2061-4070-8138-22cb706980a0-1670973972db048a34-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "165888790674ab5b8b": {
+      "type": "promo-grid",
+      "blocks": {
+        "165888790658793f29-0": {
+          "type": "advanced",
+          "settings": {
+            "promo_collection": "",
+            "subheading": "Give the gift of Nail Reformation",
+            "heading": "lIMITED HOLIDAY GIFTSET",
+            "textarea": "Allow you to choose ANY 3 or 5 bestselling designs for yourself or your BFF",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "shop holiday giftset",
+            "cta_link2": "shopify://products/gift-box",
+            "image": "shopify://shop_images/Red_and_Green_Modern_Merry_Christmas_Banner_cc868c0c-ff66-4f44-81c2-54bcb53ffafb.gif",
+            "video_url": "",
+            "width": "auto",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "165888790658793f29-1": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "1e9fd05f-80de-467a-98c6-5ac9746f8a78": {
+          "type": "simple",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "link": "",
+            "text": "",
+            "width": "100",
+            "height": 300,
+            "color_tint": "#000000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "9ed12be1-6b05-45f8-9fd4-e84443676d00": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "165888790658793f29-0",
+        "165888790658793f29-1",
+        "1e9fd05f-80de-467a-98c6-5ac9746f8a78",
+        "9ed12be1-6b05-45f8-9fd4-e84443676d00"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "e86d565e-49ce-49b4-aca5-62b9f088c861": {
+      "type": "text-columns-customize",
+      "blocks": {
+        "template--14765627932723__e86d565e-49ce-49b4-aca5-62b9f088c861-16709933479e6ffc35-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "one_column_full_width": true,
+            "image": "shopify://shop_images/IMG_4578.jpg",
+            "background_color": "",
+            "image_width": 650,
+            "title": "HOLIDAY GIFTBOX",
+            "heading_font_size": 18,
+            "heading_color": "#b00020",
+            "text": "<p><em>Shop 3 sets for $48 with $60 value, or 5 sets for $75 with $100 value </em>🛍️</p>",
+            "text_font_size": 10,
+            "text_color": "",
+            "button_label": "",
+            "button_link": "",
+            "button_background_color": "",
+            "button_border_color": "",
+            "button_text_color": ""
+          }
+        },
+        "template--14765627932723__e86d565e-49ce-49b4-aca5-62b9f088c861-16709933479e6ffc35-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "one_column_full_width": true,
+            "image": "shopify://shop_images/Red_and_Green_Modern_Merry_Christmas_Banner_0fe215fc-b1d4-4934-bece-5d1a32e8f3c2.gif",
+            "background_color": "",
+            "image_width": 650,
+            "title": "CHRISTMAS SALE",
+            "heading_font_size": 18,
+            "heading_color": "#1e792c",
+            "text": "<p>The last sale of the year is here and you don't want to miss it.</p>",
+            "text_font_size": 13,
+            "text_color": "",
+            "button_label": "",
+            "button_link": "",
+            "button_background_color": "",
+            "button_border_color": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627932723__e86d565e-49ce-49b4-aca5-62b9f088c861-16709933479e6ffc35-0",
+        "template--14765627932723__e86d565e-49ce-49b4-aca5-62b9f088c861-16709933479e6ffc35-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "71025202-b8b2-43c2-a7ac-6e553f493927": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "image": "shopify://shop_images/Copy_of_nr_sale_Website_1_copy_2.jpg",
+        "bk_color": "rgba(0,0,0,0)",
+        "bk_opacity": 0.1,
+        "focal_point": "center",
+        "layout": "left",
+        "height": 650,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 10,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": false,
+        "filter_style": "drawer",
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    },
+    "e2d57a3a-c29f-48b4-b294-5c39745c1aa6": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14765627932723__e2d57a3a-c29f-48b4-b294-5c39745c1aa6-1667547074b68215c3-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14765627932723__e2d57a3a-c29f-48b4-b294-5c39745c1aa6-1667547074b68215c3-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627932723__e2d57a3a-c29f-48b4-b294-5c39745c1aa6-1667547074b68215c3-0",
+        "template--14765627932723__e2d57a3a-c29f-48b4-b294-5c39745c1aa6-1667547074b68215c3-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "16648666328c250cd2",
+    "5da20c0d-3b2f-4dbe-91a6-94c5921a7e49",
+    "97310a43-8fd6-44ab-bd5a-6c043adbec57",
+    "13965674-2061-4070-8138-22cb706980a0",
+    "165888790674ab5b8b",
+    "e86d565e-49ce-49b4-aca5-62b9f088c861",
+    "71025202-b8b2-43c2-a7ac-6e553f493927",
+    "main-collection",
+    "e2d57a3a-c29f-48b4-b294-5c39745c1aa6"
+  ]
+}

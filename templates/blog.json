@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "b0085806-551d-4602-bb64-ebea92e16f3f": {
+      "type": "text-columns-customize",
+      "blocks": {
+        "template--14765627768883__b0085806-551d-4602-bb64-ebea92e16f3f-16727211703b09717a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "one_column_full_width": true,
+            "image": "shopify://shop_images/MMA_2458RT.jpg",
+            "background_color": "",
+            "image_width": 270,
+            "title": "",
+            "heading_color": "",
+            "text": "",
+            "text_color": "",
+            "button_label": "",
+            "button_link": "",
+            "button_background_color": "",
+            "button_border_color": "",
+            "button_text_color": ""
+          }
+        },
+        "template--14765627768883__b0085806-551d-4602-bb64-ebea92e16f3f-16727211703b09717a-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "one_column_full_width": true,
+            "background_color": "",
+            "image_width": 650,
+            "title": "Example title",
+            "heading_color": "",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "text_color": "",
+            "button_label": "Optional button",
+            "button_link": "",
+            "button_background_color": "",
+            "button_border_color": "",
+            "button_text_color": ""
+          }
+        },
+        "template--14765627768883__b0085806-551d-4602-bb64-ebea92e16f3f-16727211703b09717a-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "one_column_full_width": true,
+            "background_color": "",
+            "image_width": 650,
+            "title": "Example title",
+            "heading_color": "",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "text_color": "",
+            "button_label": "Optional button",
+            "button_link": "",
+            "button_background_color": "",
+            "button_border_color": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627768883__b0085806-551d-4602-bb64-ebea92e16f3f-16727211703b09717a-0",
+        "template--14765627768883__b0085806-551d-4602-bb64-ebea92e16f3f-16727211703b09717a-1",
+        "template--14765627768883__b0085806-551d-4602-bb64-ebea92e16f3f-16727211703b09717a-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "cb3e2137-2365-49b0-9965-2d7f54206d4c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14765627768883__cb3e2137-2365-49b0-9965-2d7f54206d4c-1672720685d6a79920-0": {
+          "type": "image",
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "Design story",
+            "title_size": 66,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/MMA_4233RT.jpg",
+            "image_mobile": "shopify://shop_images/MMA_4233RT.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--14765627768883__cb3e2137-2365-49b0-9965-2d7f54206d4c-1672720685d6a79920-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627768883__cb3e2137-2365-49b0-9965-2d7f54206d4c-1672720685d6a79920-0",
+        "template--14765627768883__cb3e2137-2365-49b0-9965-2d7f54206d4c-1672720685d6a79920-1"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_tag_filter": false,
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "title_font_size": 11,
+        "blog_image_size": "landscape"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection1": {
+          "type": "collection",
+          "settings": {
+            "collection": "glitz-and-glam-glitter-nails-nail-reformation",
+            "title": "Glitz and Glam",
+            "focal_point": "center center"
+          }
+        },
+        "collection2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "292fe715-2a52-4b84-8580-19074ea94749": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4",
+        "292fe715-2a52-4b84-8580-19074ea94749"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "f51c8639-c5d6-4668-83e7-8d0664fd2cab": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14765627768883__f51c8639-c5d6-4668-83e7-8d0664fd2cab-1672705313796e97e5-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Light_Purple_Minimalist_Clean_Skincare_Product_Review_Instagram_Post_Twitter_Post.jpg",
+            "image_width": 650,
+            "title": "Glitz And Glam",
+            "text": "<p>Be the star of the show with Glitz And Glam Collection of dazzling glitter press-on nails! Our collection features three unique designs that are sure to suit any style, from bold and glamorous to elegant and sophisticated and making anyone a Very Important Person.</p>",
+            "text_font_size": 13,
+            "button_label": "LEARN MORE",
+            "button_link": "",
+            "custom_content": ""
+          }
+        },
+        "template--14765627768883__f51c8639-c5d6-4668-83e7-8d0664fd2cab-1672705313796e97e5-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "custom_content": ""
+          }
+        },
+        "template--14765627768883__f51c8639-c5d6-4668-83e7-8d0664fd2cab-1672705313796e97e5-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "custom_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765627768883__f51c8639-c5d6-4668-83e7-8d0664fd2cab-1672705313796e97e5-0",
+        "template--14765627768883__f51c8639-c5d6-4668-83e7-8d0664fd2cab-1672705313796e97e5-1",
+        "template--14765627768883__f51c8639-c5d6-4668-83e7-8d0664fd2cab-1672705313796e97e5-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "b5aa7b00-4752-404b-be40-357981f87ab5": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "blog": "design-story",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "b0085806-551d-4602-bb64-ebea92e16f3f",
+    "cb3e2137-2365-49b0-9965-2d7f54206d4c",
+    "main",
+    "featured-collections",
+    "f51c8639-c5d6-4668-83e7-8d0664fd2cab",
+    "b5aa7b00-4752-404b-be40-357981f87ab5"
+  ]
+}

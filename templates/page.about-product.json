@@ -1,0 +1,260 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1643085510c7164286": {
+      "type": "slideshow",
+      "blocks": {
+        "16430855100ad5195a-0": {
+          "type": "image",
+          "settings": {
+            "promo_collection": "",
+            "promo_collection_text": "",
+            "top_subheading": "",
+            "title": "Perennially chic",
+            "title_size": 66,
+            "subheading": "",
+            "link": "",
+            "link_text": "SHOP NOW",
+            "link_2": "shopify://collections/all",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/MMA_4332RT.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "16430855100ad5195a-0"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "1643085557516e0c86": {
+      "type": "advanced-content",
+      "blocks": {
+        "1643085557a39b9d79-1": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<iframe width=\"520\" height=\"925\" src=\"https://cdn.shopify.com/videos/c/o/v/8abdc9c6e3b543febeadc2b198baa644.mp4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "9f780080-c315-4784-a27d-7707834be18c": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n.video-container__video{\n  height:900px;\n}\n@media (max-width: 767px) {\ndiv.video-container__video{\n  height:600px;\n}\n}\n</style>\n<div class=\"video-container__video\"><div class=\"video-container__video-element\" id=\"theme-mp-video-1\"><video playsinline=\"\" loop=\"loop\" x5-video-player-type=\"h5\" x5-video-player-fullscreen=\"true\" webkit-playsinline=\"\" autoplay=\"autoplay\" muted=\"muted\" src=\"https://cdn.shopify.com/videos/c/o/v/8abdc9c6e3b543febeadc2b198baa644.mp4\"></video></div></div>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "963ed82e-76d0-4ef6-89ba-a4fbd4337eea": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Give Your Hands Some Glam</h2><p>Beauty is a mindset, and it all starts with you. By giving women the ability to play with their appearance and express themselves freely, we empower them to feel their best. <p>In addition, we want to be a platform that encourages self-acceptance by providing a comfortable space where we can look and feel our best through positive affirmations and against body shaming. However, beauty and femininity aren't just in the shapes or colors we wear but in how we give them meaning. <p>We believe confidence is your best accessory. </p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1643085557a39b9d79-1",
+        "9f780080-c315-4784-a27d-7707834be18c",
+        "963ed82e-76d0-4ef6-89ba-a4fbd4337eea"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16430856892039ab77": {
+      "type": "advanced-content",
+      "blocks": {
+        "164308568923d4d477-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Confidence @ your Fingertips</h2><p>Nail Reformation was founded by a woman and backed by an all-female team with a single mission: empowering women and equipping them with CONFIDENCE AT YOUR FINGERTIPS, as we aim to provide an outlet that allows women to express their inner beauty. <p>\n\n<p>\nWe hope to be an extension of that by offering products that promote self-assurance and the power to be who you are.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "164308568923d4d477-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MMA_2693RT.jpg",
+            "link": "shopify://collections/all-dreamiest-press-on-nails",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164308568923d4d477-1",
+        "164308568923d4d477-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1643085734e066e6f7": {
+      "type": "advanced-content",
+      "blocks": {
+        "16430857345e1dc5e0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Good_vibe_Tuesday___goodvibes_presson_nailreformation_nails_nailart_greynails_nailsofinstagram_fyp.jpg",
+            "link": "shopify://products/good-vibes-short-round-glossy-nails",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "16430857345e1dc5e0-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>confidence is your best accessory</h2><p>Having a beautiful set of nails can boost your self-confidence and make you feel feminine, chic, and refreshed, regardless of your age, profession, or style preference.</p>\n\n</p>By challenging conventional beauty standards, Nail Reformation provides fun, creativity, and expression that allows you to achieve the look you want.</p>\n\nFor us, it was essential to ensure everyone would have the option to find the most suitable style, shape, and design, so we made sure to provide as many unique and innovative options as possible.\n</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16430857345e1dc5e0-0",
+        "16430857345e1dc5e0-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "1661071115fbf2891d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Light_Purple_Minimalist_Clean_Skincare_Product_Review_Instagram_Post.png",
+        "image_width": 600,
+        "subtitle": "manicure system",
+        "title": "innovation",
+        "text": "<p>We are the first press-on nail brand that provides a one stop solution from designing to protection in each kit. </p><p>We have received rave reviews from customers who are prioritizing health and wellness and are complementing their lifestyles with luxury self-care and easy-to-use beauty products. </p><p>With our innovative manicure system, our customers can switch up their nail colors easily whenever and wherever they want during vacations.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1643085837513f20a5": {
+      "type": "rich-text",
+      "blocks": {
+        "16430858378e5170a8-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "16430858378e5170a8-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We are the first press-on nail brand that provides a one stop solution from designing to protection in each kit. We have received rave reviews from customers who are prioritizing health and wellness and are complementing their lifestyles with luxury self-care and easy-to-use beauty products. With our innovative manicure system, our customers can switch up their nail colors easily whenever and wherever they want during vacations. </p>"
+          }
+        },
+        "add7d47b-53c1-480f-9a8d-d0098280de81": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16430858378e5170a8-0",
+        "16430858378e5170a8-1",
+        "add7d47b-53c1-480f-9a8d-d0098280de81"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "166107109179f86de7": {
+      "type": "featured-video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "divider": false
+      }
+    },
+    "742b54a5-b9f1-46ba-a4dc-625fbc5da486": {
+      "type": "background-video-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large video with text box",
+        "text": "<p>Pair large text with a full-width video to showcase your brand's lifestyle video or to describe and showcase an important detail of your products.</p>",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/67779aa1b26641f780d567b086933263.mp4",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 450
+      }
+    },
+    "9d8d18bc-990a-4050-9d35-bc325a562bea": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/67779aa1b26641f780d567b086933263.mp4",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643085510c7164286",
+    "1643085557516e0c86",
+    "16430856892039ab77",
+    "1643085734e066e6f7",
+    "1661071115fbf2891d",
+    "1643085837513f20a5",
+    "166107109179f86de7",
+    "742b54a5-b9f1-46ba-a4dc-625fbc5da486",
+    "9d8d18bc-990a-4050-9d35-bc325a562bea"
+  ]
+}

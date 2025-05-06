@@ -1,0 +1,384 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "16648666328c250cd2": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "September 29 - October 20",
+        "title": "WE SELL WHAT YOU CHOOSE",
+        "text": "<p>Receive $5 Gift Card for participating</p><p>Random winner will win the whole collection</p><p></p>",
+        "button_label": "VOTE NOW",
+        "button_link": "shopify://collections/vote",
+        "image": "shopify://shop_images/MMA_4332RT.jpg",
+        "bk_color": "#ffffff",
+        "bk_opacity": 0.3,
+        "focal_point": "80% 50%",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "165888790674ab5b8b": {
+      "type": "promo-grid",
+      "blocks": {
+        "165888790658793f29-0": {
+          "type": "advanced",
+          "settings": {
+            "promo_collection": "",
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify://collections/all-dreamiest-press-on-nails",
+            "cta_text2": "",
+            "cta_link2": "shopify://collections/all-dreamiest-press-on-nails",
+            "image": "shopify://shop_images/Horizontal_wedding_banner_with_flowers_peonies.png",
+            "video_url": "",
+            "width": "auto",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "165888790658793f29-1": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "165888790658793f29-0",
+        "165888790658793f29-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "71025202-b8b2-43c2-a7ac-6e553f493927": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "shopify://collections/all-dreamiest-press-on-nails",
+        "image": "shopify://shop_images/nr_sale_Website.jpg",
+        "bk_color": "rgba(0,0,0,0)",
+        "bk_opacity": 0.1,
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 3,
+            "rows_per_page": 4,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    },
+    "165669371302a50474": {
+      "type": "advanced-content",
+      "blocks": {
+        "165669371375b8adc7-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "165669371375b8adc7-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165669371375b8adc7-0",
+        "165669371375b8adc7-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16588878590c4935df": {
+      "type": "sswinstagram",
+      "disabled": true,
+      "settings": {
+        "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\""
+      }
+    },
+    "96cf8263-70bc-4988-aabb-76684683b121": {
+      "type": "background-video-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large video with text box",
+        "text": "<p>Pair large text with a full-width video to showcase your brand's lifestyle video or to describe and showcase an important detail of your products.</p>",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 550
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "heading": "Spend $80 and get a free Nail Reformation Signature Canvas Bag    (add it to cart prior checkout)",
+            "text": "",
+            "link": "shopify://products/nail-reformation-signature-canvas-gift-bag",
+            "label": "Shop now",
+            "image": "shopify://shop_images/3A5B4989-5FA4-45B8-BA5A-0F7EBA459585_1_105_c.jpg",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "all-dreamiest-press-on-nails",
+            "subheading": "September 29 - October 31",
+            "heading": "WE SELL WHAT YOU CHOOSE",
+            "textarea": "1. Receive $5 Gift Card for participating.\n2. Random winner will win the whole collection.",
+            "cta_text1": "VOTE NOW",
+            "cta_link1": "shopify://collections/vote",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/MMA_3662RT.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 560,
+            "text_size": 115,
+            "text_align": "vertical-top horizontal-left",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "6131fd0a-29c4-4081-b70c-b1c7bbccaadc": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "heading": "International women's day sale",
+            "text": "20% Discount From March 6th - March 9th",
+            "link": "shopify://collections/all",
+            "label": "Shop now",
+            "image": "shopify://shop_images/woman-in-pink-silk.jpg",
+            "color_tint": "#ff6d6d",
+            "color_tint_opacity": 20,
+            "framed": true
+          }
+        },
+        "8c92f458-fb5b-4fab-acf5-148d8f3206d7": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "heading": "LIMITED TIME ONLY",
+            "text": "Buy 1 10% off, usecode \"10OFF\" Buy 2 15% off, usecode \"15OFF\" Buy 3 25% off, usecode \"25OFF\"",
+            "link": "shopify://collections/all",
+            "label": "ENDING October 3rd",
+            "color_tint": "#f1d3d5",
+            "color_tint_opacity": 20,
+            "framed": false
+          }
+        },
+        "2ca63394-6d0c-41d0-92b8-dfcd14a078b3": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "subheading": "Limited time  only 09/01-09/05",
+            "heading": "labor day sale      (buy 1 get 1 50% off, use code:  nail50)",
+            "textarea": "Check out the colors everyone will be wearing for this season",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "Shop now",
+            "cta_link2": "shopify://collections/all-dreamiest-press-on-nails",
+            "image": "shopify://shop_images/Blue_and_Yellow_Modern_Dotted_Labor_Day_Card.png",
+            "video_url": "",
+            "width": "100",
+            "height": 320,
+            "text_size": 115,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "44c43d6a-85fc-4cfa-92b5-b641565da263": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "",
+            "heading": "WOMEN EQUALITY SALE",
+            "text": "20% OFF sitewide use code EQUALITY",
+            "link": "shopify://collections/all",
+            "label": "LIMITED TIME shop",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 12,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced",
+        "6131fd0a-29c4-4081-b70c-b1c7bbccaadc",
+        "8c92f458-fb5b-4fab-acf5-148d8f3206d7",
+        "2ca63394-6d0c-41d0-92b8-dfcd14a078b3",
+        "44c43d6a-85fc-4cfa-92b5-b641565da263"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "dce7b96b-ae7a-415f-96ce-658afa6b4b77": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Brown_Colorful_Pastel_Cute_Abstract_Botanical_Halloween_Costume_Party_Invitation_Banner.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "d5407949-07e0-4a24-8112-727b7d8325e2": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/nr_sale_Website.jpg",
+        "bk_color": "",
+        "bk_opacity": 0.2,
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "16648666328c250cd2",
+    "165888790674ab5b8b",
+    "71025202-b8b2-43c2-a7ac-6e553f493927",
+    "main-collection",
+    "165669371302a50474",
+    "16588878590c4935df",
+    "96cf8263-70bc-4988-aabb-76684683b121",
+    "promo-grid",
+    "dce7b96b-ae7a-415f-96ce-658afa6b4b77",
+    "d5407949-07e0-4a24-8112-727b7d8325e2"
+  ]
+}

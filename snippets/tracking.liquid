@@ -1,0 +1,130 @@
+
+
+
+
+{%- comment -%}
+<script defer type="text/javascript">
+  function GetUrlParameter(name)
+  {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  }
+  function HttpGet(url)
+  {
+    var req = new XMLHttpRequest();
+    req.open("GET", url, false);
+    req.send();
+    return req.responseText;          
+  }
+  function MakeKeyValue(obj, key, value)
+  {
+    if (key in obj)
+      Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });
+    else
+      obj[key] = value;
+    return obj;
+  }
+  function SaveCartParameter(param, value)
+  {
+    fetch(`${routes.cart_update_url}` + '.js', {
+      body: JSON.stringify({ attributes: MakeKeyValue({}, param, value) }),
+      credentials: 'same-origin',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Requested-With': 'XMLHttpRequest' // This is needed as currently there is a bug in Shopify that assumes this header
+      }
+    });
+  }
+  function SetCookie(name, value, days)
+  {
+    var date = new Date();
+    var time = date.getTime() + (days*24*60*60*1000);
+    date.setTime(time);
+    var expires = "expires=" + date.toGMTString();
+    if (time)
+      document.cookie = name + "=" + value + ";" + expires + ";path=/";
+  }
+  function GetCookie(name)
+  {
+    var cookies = decodeURIComponent(document.cookie).split(';');
+    for(var i = 0; i < cookies.length; i ++)
+    {
+      var ck = cookies[i].trim();
+      if (ck.indexOf(name + "=") == 0)
+        return ck.substring(name.length + 1, ck.length);
+    }
+    return "";
+  }
+  function SendTracking(key, value)
+  {
+    var req = new XMLHttpRequest();
+    req.open("POST", "index.php", true);
+    req.setRequestHeader("Content-Type", "application/json");
+    req.send('{"session":"' + GetCookie("first_access") + '","account":"' + '{{customer.email}}' + '","client":"' + navigator.userAgent + '","key":"' + key + '","value":"' + value + '"}');
+  }
+  window.addEventListener("load", function()
+  {
+    if (GetCookie("first_access") == "")
+      SetCookie("first_access", Date.now(), 730);
+	SendTracking(window.location.href, "referrer: " + document.referrer);
+    /*req = new XMLHttpRequest();
+    req.onreadystatechange = function()
+    {
+      if (this.readyState == 4 && this.status == 200 && this.responseText != "")
+      {
+        var geo_json = JSON.parse(this.responseText);
+        if (GetCookie("first_access") == "")
+            SetCookie("first_access", Date.now() + "-" + geo_json.ip, 730);
+        SendTracking(window.location.href, "referrer: " + document.referrer, geo_json.ip);
+      }
+    };
+    req.open("GET", "https://freegeoip.app/json/", true);
+    req.send();*/
+
+    {%- if false and settings.save_location == true -%}
+      function GeoChangeBanners(location)
+      {
+      }
+      var location = "{{cart.attributes.location}}";
+      if (location.length == 0)
+      {
+        $.getJSON('https://geoip/').done(function(data) {
+          if (data)
+            SaveCartParameter("location", data.country_code);
+          if (data.country_code.length > 0)
+            GeoChangeBanners(data.country_code);
+        });
+      }
+      else
+        GeoChangeBanners(location);
+    {%- endif -%}
+
+    {%- if settings.save_url == true -%}
+      {%- assign current_url = content_for_header | split:'"pageurl":"' | last | split:'","' | first | replace:'\/','/' | replace:'%20',' ' | replace:'\u0026','&' -%}
+      {%- if cart.attributes.landing_url == blank and current_url contains "utm_" -%}
+        var now = new Date();
+        SaveCartParameter("landing_url", "[" + now.toLocaleString("en-US") + "] {{ current_url }}");
+      {%- endif -%}
+	{%- endif -%}
+  });
+</script>
+{%- endcomment -%}
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10944819516"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-AW-10944819516');
+
+  {% if template contains 'cart' %}
+    gtag('event', 'begin_checkout', { 'send_to': 'AW-10944819516/n-x6CMaWl80DELzi8uIo', 'value': {{ cart.total_price | money_without_currency | remove: "," }}, 'currency': 'USD' });
+  {% else %}
+    gtag('event', 'page_view', { 'send_to': 'AW-10944819516/n-x6CMaWl80DELzi8uIo', 'page_location': window.location.href });
+  {% endif %}
+</script>
+

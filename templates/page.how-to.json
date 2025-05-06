@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1643086017fe041d66": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/IMG_1425.jpg",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Instant Application",
+        "text": "<p>1. Wipe nails with clean pads.</p><p>2. Select the nail size that best fits your own and set aside in order.</p><p>3. Apply an even layer of glue to the back of the nail and your natural nail.</p><p>4. Let the glue set for ten seconds. Align the nails with your cuticle line and press downward. Press firmly and hold for 30 seconds. </p><p>5. Shape the size and length with a file.</p>",
+        "button_label": "",
+        "button_link": "shopify://products/oh-diamond-medium-coffin-glitter-nails",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1643086030190fa4d5": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/IMG_1412.jpg",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Removal and Protection Tips",
+        "text": "<p>Soak your nails in warm water with soap and cooking oil for at least 10 minutes before starting removal.</p><p>1. Gently peel the edges of the nails with the wooden cuticle stick. Do not force a removal.</p><p>2. Apply a few drops of Nail Reformation signature essential oil into your cuticles and on your fingernails after removal for long, healthy and beautiful nails.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "cca347fb-68dd-441a-9419-ff643717dd3d": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14765628686387__cca347fb-68dd-441a-9419-ff643717dd3d-1670910502379691f0-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--14765628686387__cca347fb-68dd-441a-9419-ff643717dd3d-1670910502379691f0-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Instant Application</h2><p> Before applying Nail Reformation press-on nails, wash your hands and ensuring they are completely dry.<p> 1. Start by cleaning your natural nails thoroughly with prep pad, push back cuticles with cuticle pusher. <p>2. Use the nail buffer to roughen the surface of your natural nails. This helps the press-on nails adhere better.<p>3. Select nail size that best fits your own and set aside in order. Ensure the nail you select perfectly covers your bare nail completely for a longer hold. You may file down the size or bottom of a press-on if you feel it is a little too large. <p>4. Completely dry your nails after you prep them and before you start the press-on application. This helps the press-on nails stay on for longer. <p>5. Apply an even layer of glue to the back of the press-on nail and a generous layer of glue to your entire natural nail.<p>6. Align the press-on nails under your cuticle and press down with your thumb. Hold and squeeze firmly for 30 seconds ensuring the entire nail receives pressure.<p>7. Apply cuticle oil to cuticles for a perfect look.",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "d37a6bf9-c5ed-47b0-8b8e-a3ea4968a485": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n.video-container__video{\n  height:900px;\n}\n@media (max-width: 767px) {\ndiv.video-container__video{\n  height:600px;\n}\n}\n</style>\n<div class=\"video-container__video\"><div class=\"video-container__video-element\" id=\"theme-mp-video-1\"><video playsinline=\"\" loop=\"loop\" x5-video-player-type=\"h5\" x5-video-player-fullscreen=\"true\" webkit-playsinline=\"\" autoplay=\"autoplay\" muted=\"muted\" src=\"https://cdn.shopify.com/videos/c/o/v/e99f1c751f84450e8c66ae6c18713460.mov\"></video></div></div>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628686387__cca347fb-68dd-441a-9419-ff643717dd3d-1670910502379691f0-0",
+        "template--14765628686387__cca347fb-68dd-441a-9419-ff643717dd3d-1670910502379691f0-1",
+        "d37a6bf9-c5ed-47b0-8b8e-a3ea4968a485"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "3392aa28-f325-45fb-ba02-5f59ca902c5d": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14765628686387__3392aa28-f325-45fb-ba02-5f59ca902c5d-16673689166624591f-1": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<style>\n.video-container__video{\n  height:900px;\n}\n@media (max-width: 767px) {\ndiv.video-container__video{\n  height:600px;\n}\n}\n</style>\n<div class=\"video-container__video\"><div class=\"video-container__video-element\" id=\"theme-mp-video-1\"><video playsinline=\"\" loop=\"loop\" x5-video-player-type=\"h5\" x5-video-player-fullscreen=\"true\" webkit-playsinline=\"\" autoplay=\"autoplay\" muted=\"muted\" src=\"https://cdn.shopify.com/videos/c/o/v/8abdc9c6e3b543febeadc2b198baa644.mp4\"></video></div></div>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "786714d0-8344-419b-b0f5-649823ec72c9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n.video-container__video{\n  height:900px;\n}\n@media (max-width: 767px) {\ndiv.video-container__video{\n  height:600px;\n}\n}\n</style>\n<div class=\"video-container__video\"><div class=\"video-container__video-element\" id=\"theme-mp-video-1\"><video playsinline=\"\" loop=\"loop\" x5-video-player-type=\"h5\" x5-video-player-fullscreen=\"true\" webkit-playsinline=\"\" autoplay=\"autoplay\" muted=\"muted\" src=\"https://cdn.shopify.com/videos/c/o/v/a8f3799e6c7748afa98cb9829ad540a5.mp4\"></video></div></div>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "7029ddab-58d1-4c9d-8345-113bfd8c31ce": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Removal and Protection Tips</h2><p>Soak your nails in warm, soapy water for 15-20 minutes before starting removal. This can help soften the artificial nails and the adhesive.<p>\n1. After soaking, dry your hands. Use the cuticle stick to gently lift the nail's edge and drop Nail Reformation signature cuticle oil or olive oil into the gap to reach the glue. This can further help loosen the adhesive.<p>2. Wait briefly until the nail begins to loosen and the opening increases before dropping additional cuticle oil into it.<p>3. Repeat the oil application as needed until the artificial nails can be gently lifted off.<p>4. Do not force or pull the nails off as it could cause damage. <p> 5. Apply a few drops of our signature cuticle oil into your cuticles and on your fingernails after removal for long, healthy and beautiful nails. </p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14765628686387__3392aa28-f325-45fb-ba02-5f59ca902c5d-16673689166624591f-1",
+        "786714d0-8344-419b-b0f5-649823ec72c9",
+        "7029ddab-58d1-4c9d-8345-113bfd8c31ce"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "featured_collections_7VFFAA": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_XkgGLc": {
+          "type": "collection",
+          "settings": {
+            "collection": "almond",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_hHt6Cy": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffin",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_YBbYbz": {
+          "type": "collection",
+          "settings": {
+            "collection": "round",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_3nAPDr": {
+          "type": "collection",
+          "settings": {
+            "collection": "square",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XkgGLc",
+        "collection_hHt6Cy",
+        "collection_YBbYbz",
+        "collection_3nAPDr"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOP BY SHAPE",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643086017fe041d66",
+    "1643086030190fa4d5",
+    "cca347fb-68dd-441a-9419-ff643717dd3d",
+    "3392aa28-f325-45fb-ba02-5f59ca902c5d",
+    "featured_collections_7VFFAA"
+  ]
+}

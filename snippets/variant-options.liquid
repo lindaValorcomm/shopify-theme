@@ -1,0 +1,110 @@
+
+
+
+<div class="variant-wrapper js variant-options" data-type="button">
+  <label class="variant__label"
+    for="ProductSelect-{{ section_id }}-option-{{ forloop.index0 }}">
+    {{ option_name }}
+  </label>
+  {%- assign option_index = forloop.index -%}
+  <fieldset class="variant-input-wrap"
+    name="{{ option_name }}"
+    data-index="option{{ option_index }}"
+    data-handle="{{ option_name | handleize }}"
+    id="ProductSelect-{{ section_id }}-option-{{ forloop.index0 }}"
+    data-checkbox-limit="3">
+    <legend class="hide">{{ option_name }}</legend>
+    <!--product.options.size={{ product.options.size }}, product.selected_or_first_available_variant={{ product.selected_or_first_available_variant }}-->
+    {%- for product in products -%}
+      {%- liquid
+        assign product_available = true
+        if product.options.size == 1
+          assign product_available = product.selected_or_first_available_variant.available
+        endif
+      -%}
+      <div class="variant-input"
+        data-index="option{{ option_index }}"
+        data-value="{{ product.handle }}">
+        <!--input type="hidden" name="properties[SKU]" value="{{ product.selected_or_first_available_variant.sku }}"-->
+        <input type="checkbox"
+          form="{{ form_id }}"
+          class="{% if is_color %} variant__input--color-swatch{% endif %}"
+          id="ProductSelect-{{ section_id }}-option-{{ option_name | handleize }}-{{ product.id }}"
+          name="properties[Title]" value="{{ product.title }} ({{ product.selected_or_first_available_variant.sku }})"
+          value-sku="{{ product.selected_or_first_available_variant.sku }}"
+          data-index="option{{ option_index }}"
+          image-index="{{ forloop.index }}"
+          xdata-variant-input>
+        <label for="ProductSelect-{{ section_id }}-option-{{ option_name | handleize }}-{{ product.id }}"
+          class="variant__button-label color-swatch {% unless product_available %} disabled{% endunless %}"
+          style="{% if product.featured_image != blank %} background-image: url({{ product.featured_image | product_img_url: '600x' }});{% endif %}"
+          title="{{ product.title | escape }}"
+        >{{ product.title | escape }}
+        </label>
+      </div>
+    {%- endfor -%}
+  </fieldset>
+</div>
+
+<script>
+    function InitCheckbox(limit) {
+      var i = document.querySelectorAll("#ProductSelect-{{ section_id }}-option-{{ forloop.index0 }} input[type=checkbox]");
+      i.forEach(ii=> { ii.setAttribute('disabled_0', 'true'); });
+      var j = document.querySelectorAll("#ProductSelect-{{ section_id }}-option-{{ forloop.index0 }} input[type=checkbox]:checked");
+      if (j.length >= limit)
+         j.forEach(jj=> { jj.removeAttribute('disabled_0'); });
+      else
+        i.forEach(ii=> { ii.removeAttribute('disabled_0'); });
+      if (j.length == limit)
+        document.querySelector(".add-to-cart").removeAttribute("disabled");
+      else
+        document.querySelector(".add-to-cart").setAttribute("disabled", "disabled");
+    }
+    window.addEventListener("load", function() {
+      document.querySelectorAll('#ProductSelect-{{ section_id }}-option-{{ forloop.index0 }} input[type=checkbox]').forEach(item=> {
+        item.addEventListener("mouseover", function(e) {
+          console.log(e.currentTarget);
+        });
+      });
+      document.querySelectorAll('#ProductSelect-{{ section_id }}-option-{{ forloop.index0 }} input[type=checkbox]').forEach(item=> {
+        item.addEventListener("click", function(e) {
+          /*document.querySelectorAll(".product__photos .product__thumbs").forEach(thumbs => {
+            thumbs.querySelectorAll(".product__thumb")[e.currentTarget.getAttribute("image-index") - 1].click();
+          });*/
+          //var ooo = document.querySelectorAll(".product__photos .product__thumbs");
+          //var sss1 = ooo[0].querySelectorAll(".product__thumb");
+          //var sss2 = ooo[1].querySelectorAll(".product__thumb");
+          document.querySelector(".product__photos .product__thumbs").querySelectorAll(".product__thumb")[e.currentTarget.getAttribute("image-index") - 1].click();
+          if (this.getAttribute("disabled_0") == 'true')
+          {
+            this.checked = false;
+          }
+          else
+          {
+            InitCheckbox(e.currentTarget.closest("fieldset.variant-input-wrap").getAttribute("data-checkbox-limit"));
+            var label = e.currentTarget.closest(".variant-wrapper").querySelector(".variant__label");
+            label.innerHTML = e.currentTarget.nextSibling.nextSibling.innerHTML;
+            label.classList.remove("hidden-label");
+          }
+        });
+      });
+      document.addEventListener("variant:change", function(e) {
+        var limit = parseInt(e.detail.variant["public_title"]);
+        document.querySelector("#ProductSelect-{{ section_id }}-option-{{ forloop.index0 }}").setAttribute("data-checkbox-limit", limit);
+        InitCheckbox(limit);
+      });
+      document.querySelector("#ProductSelect-{{ section_id }}-option-{{ forloop.index0 }}").setAttribute("data-checkbox-limit", {{ checkbox_limit }});
+      InitCheckbox({{ checkbox_limit }});
+    });
+  /* 
+      :{% for product in collections[box_collection].products limit: 40 offset: 40 %}
+        {{ product.title }}
+      {% endfor %}
+{{box_collection}}::
+    {% paginate collections[box_collection].products by 50 %}
+    {% for product in collections[box_collection].products %}
+      {{ product.title }},
+    {% endfor %}
+    {% endpaginate %}
+  */
+</script>
